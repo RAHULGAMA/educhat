@@ -4,7 +4,7 @@
 
 commands to run the website
 
-# git clone <url>
+#git clone <url>
 
 #install pytorch
 
