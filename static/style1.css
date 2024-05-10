@@ -1,0 +1,82 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h2 {
+    color: #333;
+}
+
+/* Review list styles */
+.review-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.review-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.review-item p {
+    margin: 5px 0;
+}
+
+/* Form styles */
+.review-form {
+    margin-top: 20px;
+}
+
+.review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.review-form select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.review-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #555;
+}
+
+/* Logout link styles */
+.logout-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+.logout-link:hover {
+    color: #333;
+}

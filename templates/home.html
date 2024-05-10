@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="static/style2.css">
+  <link rel="stylesheet" href="static/home.css">
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/Stylesheets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
+
+  <script type="text/javascript" src="https://api.collegeai.com/api/bundle.js"></script>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="static/images/logom.png" alt="Logo">
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li> <a href="/review">Reviews</a></li>
+            <li><a href="/search1">Search</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+      </div>
+      <div class="auth">
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('signup') }}">Signup</a>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Sign In Modal -->
+  <div id="signinModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeSignin">&times;</span>
+      <h2>Sign In</h2>
+      <form id="signinForm" action="/signin">
+        <input type="text" id="username" placeholder="Username" name="username" required>
+        <input type="password" id="password" placeholder="Password" name="password" required>
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Sign Up Modal -->
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeSignup">&times;</span>
+      <h2>Sign Up</h2>
+      <form id="signupForm" action="/signup">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="newUsername" placeholder="username" required>
+        <input type="password" id="newPassword" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="background-image"></div>
+
+  <section class="getstarted mx-auto justify-center">
+    <div class="navbar1 mx-auto justify-center space-between">
+      <div class="dropdown">
+        <button class="dropbtn">B.Tech</button>
+        <div class="dropdown-content">
+          <a href="/iitm">IIT Madras , Indian Institute of technology</a>
+          <a href="/iitd">IIT Delhi- Indian Institute of technology</a>
+          <a href="/iitb">IIT Bombay - Indian Institute of technology</a>
+          <a href="/iitk">IIT kanpur- Indian Institute of technology </a>
+          <a href="/iitr">IIT Roorkee- Indian Institute of technology </a>
+          <a href="/reva">REVA University</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">MBA</button>
+        <div class="dropdown-content">
+          <a href="/iima">IIM AHMEDABAD     </a>
+          <a href="/iimb"> IIM BANGALORE </a>
+          <a href="/iimk"> IIM KOZHIKODE </a>
+          <a href="/iimc">IIM CALCUTTA </a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">MBBS</button>
+        <div class="dropdown-content">
+          <a href="/aims">AIIMS NEW DELHI</a>
+          <a href="/cmc">CHRISTIAN MEDICAL COLLEGE, VELLORE</a>
+          <a href="/bhu">BANARAS HINDU UNIVERSITY,  VARANASI</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Law</button>
+        <div class="dropdown-content">
+          <a href="/nlsiu">National law school of India University, Bangalore </a>
+          <a href="/nlu">NLU Delhi, National law University</a>
+          <a href="/nu">NLU Hyderabad, Nalsar University of law</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Architecture</button>
+        <div class="dropdown-content">
+          <a href="/iitr_arch">IIT Roorkee</a>
+          <a href="/nitc">NIT Calicut</a>
+          <a href="/iitkgp">IIt Kharagpur</a>
+        </div>
+      </div>
+    </div>
+    <div class="welcome">
+      <h2>Welcome Back {{username}}</h2>
+    </div>
+  
+    <div class="search">
+      <h1>Top Colleges</h1>
+      <form action="/search" method="GET">
+        <select name="college">
+          {% for college in colleges %}
+          <option value="{{ college }}">{{ college }}</option>
+          {% endfor %}
+        </select>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- <div class="welcome">
+    <h2>Welcome Back {{username}}</h2>
+  </div>
+
+  <div class="search">
+    <h1>Top Colleges</h1>
+    <form action="/search" method="GET">
+      <select name="college">
+        {% for college in colleges %}
+        <option value="{{ college }}">{{ college }}</option>
+        {% endfor %}
+      </select>
+      <button type="submit">Search</button>
+    </form>
+  </div> -->
+
+  <br><br>
+
+  <!-- ====  chatbot ===-->
+
+
+  <div class="container1">
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <i class="fas fa-user" style="color: white; font-size: 40px;">&nbsp;&nbsp;</i>
+          </div>
+          <div class="chatbox__content--header">
+            <h4 class="chatbox__heading--header">Chat support</h4>
+            <p class="chatbox__description--header">Hi, My name is bot. How can I help you?</p>
+          </div>
+        </div>
+        <div class="chatbox__messages">
+          <div></div>
+        </div>
+        <div class="chatbox__footer">
+          <input type="text" name="" placeholder="Write a message...">
+          <button class="chatbox__send--footer send__button">Send</button>
+        </div>
+      </div>
+      <div class="chatbox__button">
+        <button><i class='fas fa-comment-alt' style='font-size:24px'></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== explore ====== -->
+
+
+  <div class="selector">
+    <div class="explore-h1 mt-10">
+      <h1>EXPLORE ALMOST EVERYTHING</h1>
+      <div class="explore-p">
+        <p>
+          educhat.com is an extensive data provider for the students,
+          parents, and education industry players who are seeking information
+        </p>
+      </div>
+    </div>
+
+    <div class="explore-cards">
+      <div class="row">
+        <a href="/featured">
+          <div class="explore-card">
+            <div class="card-img">
+              <img src="./static/images/1.jpg" alt="" />
+            </div>
+            <div class="card-h1">
+              <h3>FIND BEST COLLEGES</h3>
+              <p class="gray">Learn about the best in the cities</p>
+            </div>
+          </div>
+        </a>
+        <a href="/explore">
+          <div class="explore-card">
+            <div class="card-img">
+              <img src="./static/images/2.jpg" alt="" />
+            </div>
+            <div class="card-h1">
+              <h3>EXPLORE EXAMS</h3>
+              <p class="gray">
+                Stay informed about the latest happenings to map your higher
+                studies
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/review">
+          <div class="explore-card">
+            <div class="card-img">
+              <img src="static/images/4.jpg" alt="" />
+            </div>
+            <div class="card-h1">
+              <h3>TOP REVIEWS</h3>
+              <p class="gray">
+                Know what others have to say about the college you are searching
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section>
+    
+  </section>
+
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="about">
+        <h3 id="aboutus">About Us</h3>
+        <p>Your about us content goes here.</p>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#"><i class="fab fa-instagram"></i>instagram</a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i>twitter</a></li>
+          <li><a href="#"><i class="fab fa-whatsapp"></i>whatsapp</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Contact</h3>
+        <p>Phone: +1234567890</p>
+        <p>Email: info@example.com</p>
+      </div>
+    </div>
+  </footer>  
+
+  <script src="js/authentication.js"></script>
+  <script src="search.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#college').change(function () {
+        var collegeName = $(this).val();
+        $.post('/college_info', { college: collegeName }, function (data) {
+          $('#college-name').text('Name: ' + data.name);
+          $('#college-location').text('Location: ' + data.location);
+          $('#college-founded').text('Founded: ' + data.founded);
+          // Update other fields as needed
+        }).fail(function () {
+          $('#college-info').html('<p>College information not found.</p>');
+        });
+      });
+    });
+  </script>
+  <script>
+    // $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    db.documents.createIndex({ title: "text", content: "text" })
+  </script>
+  <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+  <script src="static/index.js"></script>
+</body>
+
+</html>

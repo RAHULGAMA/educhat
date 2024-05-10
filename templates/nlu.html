@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="Stylesheets/style.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>HOME</title>
+
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/style2.css" />
+    <link rel="stylesheet" href="static/home.css">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white">
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="static/images/logom.png" alt="Logo">
+            </div>
+            <div class="navigation1">
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#aboutus">About</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                        <li> <a href="/review">Reviews</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+            </div>
+            <div class="auth">
+                <a href="{{ url_for('login') }}">Login</a>
+                <a href="{{ url_for('signup') }}">Signup</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="getstarte mx-auto justify-center">
+        <div class="navbar2 mx-auto justify-center space-between">
+            <div class="dropdown">
+                <button class="dropbtn">B.Tech</button>
+                <div class="dropdown-content">
+                    <a href="/iitm">IIT Madras , Indian Institute of technology</a>
+                    <a href="/iitd">IIT Delhi- Indian Institute of technology</a>
+                    <a href="/iitb">IIT Bombay - Indian Institute of technology</a>
+                    <a href="/iitk">IIT kanpur- Indian Institute of technology </a>
+                    <a href="/iitr">IIT Roorkee- Indian Institute of technology </a>
+                    <a href="/reva">REVA University</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">MBA</button>
+                <div class="dropdown-content">
+                    <a href="/iima">IIM AHMEDABAD  </a>
+                    <a href="/iimb"> IIM BANGALORE </a>
+                    <a href="/iimk"> IIM KOZHIKODE </a>
+                    <a href="/iimc">IIM CALCUTTA </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">MBBS</button>
+                <div class="dropdown-content">
+                    <a href="/aims">AIIMS NEW DELHI</a>
+                    <a href="/cmc">CHRISTIAN MEDICAL COLLEGE, VELLORE</a>
+                    <a href="/bhu">BANARAS HINDU UNIVERSITY,  VARANASI</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Law</button>
+                <div class="dropdown-content">
+                    <a href="/nlsiu">National law school of India University, Bangalore </a>
+                    <a href="/nlu">NLU Delhi, National law University</a>
+                    <a href="/nu">NLU Hyderabad, Nalsar University of law</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Architecture</button>
+                <div class="dropdown-content">
+                    <a href="/iitr_arch">IIT Roorkee</a>
+                    <a href="/nitc">NIT Calicut</a>
+                    <a href="/iitkgp">IIt Kharagpur</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mt-5">
+        <div class="rh rounded-bottom-lg">
+            <div class="divimg mx-auto justify-center ">
+                <img class="rounded-xl" src="static/images/nlu_bg.jpeg" alt="banner image">
+            </div>
+
+            <h2 class="font-bold text-3xl my-4 px-4">NLU Delhi (NLUD) - National Law University: Courses, Fees, Admission 2024, Placements, Ranking
+            </h2>
+
+            <div class=" flex flex-row px-4">
+                <a href="#">
+                    <p class="flex  "> <i class='bx bxs-map-pin text-black'></i><span
+                            class="mt-2 ml-1 font-bold">Dwarka
+                            <span class=" text-blue-500">Delhi</span></span></p>
+                </a>
+                <a href="#">
+                    <p class="flex text-black mx-2"> <span class="mt-2 ml-1">|</span></p>
+                </a>
+
+                <a href="#">
+                    <p class="flex  "> <i class='bx bxs-star text-yellow-400'></i></i><span
+                            class="mt-2 ml-1 font-bold">4.3 /5
+                            <span class="text-blue-500">(8 reviews)</span></span></p>
+                </a>
+                <a href="#">
+                    <p class="flex text-black mx-2"> <span class="mt-2 ml-1">|</span></p>
+                </a>
+
+                <a href="#">
+                    <p class="flex  text-blue-500"> <i class='bx bx-comment text-black'></i><span
+                            class="mt-2 ml-1 font-bold">276
+                            Student
+                            Q&A</span></p>
+                </a>
+            </div>
+            <div class="h-20 nac">
+                <div class="flex flex-row mt-4 px-4 mb-3   ">
+
+                    <div class="bg-gray-100 rounded-lg px-2   mr-3"><span class="text-green-500 font-bold">A </span>
+                        NAAC accredited
+                    </div>
+                    <div class="bg-gray-100 rounded-lg px-2   mx-3">Public/Government University </div>
+                    <div class="bg-gray-100 rounded-lg px-2   mx-3">Estd. 2008 </div>
+
+                </div>
+            </div>
+
+            <div class="px-4 my-5">
+                <div flex flex-row mx-auto justify-between>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#collegeinfo">College info</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#courses">Courses & fee</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#ratings">Reviews</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#admission">Admissions</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#cutoff">Cut-Offs</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#infrastructureSection">Infrastructure</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="mt-16" id="collegeinfo">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl">NLU Delhi Highlights 2023</dt>
+                <dd>
+
+                    <p class="my-6">
+                        Established in the year 2008, National Law University, Delhi, also known as NLU Delhi is a state-level university located in the capital of India. Out of the 23 NLUs in the country, NLU Delhi is among the leading ones. The university is recognised by the University Grants Commission (UGC) and is also a member of AIU. NLU Delhi is accredited with an ‘A’ grade with a score of 3.59 by NAAC and approved by the Bar Council of India (BCI). NLU Delhi is ranked 2 for Law by NIRF 2021. The university offers a total of 11 law courses across two streams at UG, PG and PhD levels. Additionally, NLU Delhi also offers PG diploma, certificate, diploma and bridge courses.
+                        
+                        <table style="height: 373px;" width="0">
+                            <tbody>
+                                <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                    <th class="px-2" style="width: 481.484px; height: 29px;">
+                                        <p><strong>Particulars</strong></p>
+                                    </th>
+                                    <th class="px-2" style="width: 508.516px; height: 29px;">
+                                        <p><strong>Statistics</strong></p>
+                                    </th>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="height: 29px; width: 465.828px;">
+                                        <p>Establishment year</p>
+                                    </td>
+                                    <td style="height: 29px; width: 656.172px;">
+                                        <p>2008</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="height: 29px; width: 465.828px;">
+                                        <p>Student intake</p>
+                                    </td>
+                                    <td style="height: 29px; width: 656.172px;">
+                                        <p>UG: 123</p>
+                                        <p>PG: 81</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 83px;">
+                                    <td style="height: 83px; width: 465.828px;">
+                                        <p>Rankings (2021)</p>
+                                    </td>
+                                    <td style="height: 83px; width: 656.172px;">
+                                        <p>- Ranked 2 by NIRF under Law category</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="height: 29px; width: 465.828px;">No. of courses</td>
+                                    <td style="height: 29px; width: 656.172px;">
+                                        <p>7 courses across 2 streams</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="height: 29px; width: 465.828px;">Student-faculty ratio</td>
+                                    <td style="height: 29px; width: 656.172px;">
+                                        <p>10: 1</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="height: 29px; width: 465.828px;">Number/ Types of scholarships offered</td>
+                                    <td style="height: 29px; width: 656.172px;">
+                                        <p>60; merit-based and need-based</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        
+                        
+                                                        
+                                    
+
+                                       
+
+
+                    <div class="my-10">
+                        <p class="my-4">Check out more on NLU Delhi in the below video:</p>
+
+                        
+                        
+                        
+
+
+                        <iframe class="rounded-lg" width="100%" height="315"
+                            src="https://www.youtube.com/embed/U46FXdTtdc0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+
+                        <iframe class="rounded-lg" width="100%" height="430"
+                            src="https://www.youtube.com/embed/67oD07gB8cs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+
+
+                        
+                        <iframe class="rounded-lg" width="100%" height="430"
+                            src="https://www.youtube.com/embed/nOw35Q0rfm4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+                        <br>
+
+                    </div>
+
+
+
+
+                    <div class="accordion-nested">
+                        <dl>
+                            <dt class="font-bold">Q:
+                                 
+
+                                
+                                How many courses are offered at NLU Delhi?</dt>
+                            <dd>
+                                <div class="accordion-nested">
+                                    
+                                    <div>
+                                        <p>A: 
+                                            here are nine courses and six programs which are offered in NLU Delhi.
+
+                                                                                <ul>
+                                        <li>Master of Law (LL.M.)</li>
+                                        <li>B.A. LL.B (Hons.)</li>
+                                        <li>Online Diploma in Law and Practice of Arbitration</li>
+                                        <li>Ph.D. in law (Part time)</li>
+                                        <li>LL.M. (IICA)</li>
+                                        <li>Online PG Diploma in Insolvency and Bankruptcy: Law and Practice</li>
+                                        <li>PG Diploma in Law</li>
+                                        <li>Online Certificate in Business and Commercial Laws</li>
+                                        <li>Ph.D. in Law</li>
+                                    </ul>
+
+                                    </div>
+                                    
+                                    
+
+                                    
+                                </div>
+                            </dd>
+                            <dt class="font-bold">Q:
+                                
+
+                                
+Is NLU Delhi accredited?
+                            </dt>
+                            <dd>
+                                <div class="accordion-nested">
+                                    <div>
+                                        <p>A: 
+                                            NLU Delhi is a Grade 'A' University. The score of this University is 3.59 by the National Assessment and Accreditation Council (NAAC) and also approved by 'The Bar Council of India' (BCI).  The university is among the best law schools in India and holds the 2nd rank in the National Institutional Ranking Framework (NIRF).
+
+The National Law University, the Delhi Centre for Law and Justice, and the Government of India jointly promote legal literacy and legal awareness under the DISHA program of the DoJ.</p></div>
+                                </div>
+                            </dd>
+
+
+                            <dt class="font-bold">Q:
+                                What is the mode of application for NLU Delhi admission?
+                            </dt>
+                            <dd>
+                                <div class="accordion-nested">
+                                    <div>
+                                        <p>A: 
+                                            NLU Delhi conducts its own entrance exam for admission to the All India Law Entrance Test (AILET). It offers admission to undergraduate, postgraduate, and doctoral programs.
+
+
+                                            <br>The AILET application form is released in online mode on nationallawuniversitydelhi. in. The application fee for general people is INR 3,500, for PwD its INR 1,500, for SC/ST INR 1,500 and those who are below the poverty line (BPL) are exempt from paying the application fee that is they don't have to pay any application fee to appear in the exam. 
+<br>
+                                            The exam mode of AILED is offline. The duration of this exam is 1hour 30minutes. <br>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+
+                            <dt class="font-bold">Q:
+                                Does NLU Delhi offer good placements?
+                            </dt>
+                            <dd>
+                                <div class="accordion-nested">
+                                    <div>
+                                        <p>A: 
+                                            Yes, NLU Delhi has a decent placement rate, with students from almost all the courses getting placement assistance. During the 2022 placement session, 59 students were placed from the BA LLB (Hons) courses and 43 students were placed from the LLM course. Further, the median package offered during NLU Delhi LLM placements 2022 was INR 10 LPA.</p>
+                                    </div>
+                                </div>
+                            </dd>
+
+
+
+                            
+
+                            
+                    </div>
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-16" id="courses">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl">NLU Delhi Courses and Fees 2024</dt>
+                <dd>
+
+                    <p class="my-6">
+                        <div><p>NLU Delhi offers a wide range of undergraduate and postgraduate courses to the students. Candidates seeking admission to NLU Delhi courses are required to fulfill the minimum eligibility criteria set by the college for the desired course. The fee for all the courses offered here ranges between INR 30,000 and INR 675,000. Find below the list of all NLU Delhi courses along with the fees and eligibility details:
+
+                    </p>
+                    </p>
+                    
+                    
+                    <!-- <table class="my-10">
+                        <tbody class=" border-2">
+                            <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                <th class="px-2" style="width: 481.484px; height: 29px;">
+                                    <p><strong>Courses</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Tuition Fees</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Eligibility</strong></p>
+                                </th>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>B.E. / B.Tech (27 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>8 L - 20 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 75 %<br>Exams : JEE Main, JEE Advanced</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>M.E./M.Tech (71 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>1.2 L - 10 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 75 %<br>Graduation : 60 %<br>Exams : GATE, COAP + 2 More</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>M.Sc. (11 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>30 K - 2.7 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Exams : IIT JAM</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>B.Sc. (3 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>8 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 75 %<br>Exams : JEE Main, JEE Advanced</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>MBA/PGDM (2 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>8 L - 20 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Graduation : 50 %<br>Exams : CAT, JEE Main + 2 More</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>Ph.D. (25 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>21.3 K - 5.7 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Graduation : 60 %<br>Exams : GATE, IIT JAM + 3 More</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                    <!-- <table class="my-10">
+                        <tbody class=" border-2">
+                            <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                <th class="px-2" style="width: 481.484px; height: 29px;">
+                                    <p><strong>Courses</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Tuition Fees</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Eligibility</strong></p>
+                                </th>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>B.E. / B.Tech (8 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>8 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 75 %<br>Exams : JEE Main, JEE Advanced</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>M.E./M.Tech (34 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>20 K - 8 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Graduation : 55-60 %<br>Exams : GATE, COAP</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>B.Sc. (8 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>8 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 75 %<br>Exams : JEE Main, JEE Advanced</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>M.Sc. (31 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>12 K - 20 K</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 75 %<br>Graduation : 55-75 %<br>Exams : GATE, IIT JAM + 3 More</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>Ph.D. (22 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>48.5 K</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Exams : GATE, UGC NET + 5 More</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>MBA/PGDM (4 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>2.8 L - 13.5 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 60 %<br>Graduation : 55-60 %<br>Exams : CAT</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>M.Des (1 course)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>94.9 K</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Exams : CEED</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>MMS (12 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>5.4 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Graduation : 55 %<br>Exams : GATE</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>Certificate (1 course)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>1.5 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Graduation : 50 %</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                    <table class="my-10">
+                        <tbody class=" border-2">
+                            <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                <th class="px-2" style="width: 481.484px; height: 29px;">
+                                    <p><strong>Courses</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Tuition Fees</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Eligibility</strong></p>
+                                </th>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>LL.M. (2 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>1.4 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Graduation : 50%<br>Exams : AILET</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>B.A. LL.B. (Hons) (1 course)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>6.8 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>10+2 : 45%<br>Exams : AILET</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>PG Diploma (2 courses)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>1 L</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>– / –</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>UG Diploma (1 course)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>50 K</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>Exams : CBSE 12th</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="width: 481.484px; height: 29px;">
+                                    <p>Certificate (1 course)</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>30 K</p>
+                                </td>
+                                <td style="width: 508.516px; height: 29px;">
+                                    <p>– / –</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+            
+            <div class="my-10">
+                Check out more details in the below video:
+                <iframe width="100%" height="430"
+                    src="https://www.youtube.com/embed/CSvMQM40BgE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <br>
+            </dd>
+            </dl>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br><br>
+
+    <div class="ratingssection" id="ratings">
+        <div
+            class=" mt-4 grid grid-cols-1 gap-8 px-4 pb-8 pt-6 sm:grid-cols-12 sm:grid-rows-2 sm:gap-x-0 sm:gap-y-6 sm:px-6 lg:grid-rows-1 lg:gap-14 lg:p-10 lg:px-8 lg:py-10">
+            <div
+                class="flex flex-col place-items-center text-center sm:col-span-12 lg:col-span-3 lg:justify-between lg:gap-3">
+                <h2 data-testid="overall-rating-h2"
+                    class="font-bold text-center text-xl text-spacecadet-800 lg:mb-1 lg:text-xl">Overall Rating
+                    <span class="text-gray-400 font-normal">(out of 5)</span></h2>
+                <h1 data-testid="overall-rating-h1" class="text-4xl sm:mt-4 sm:text-5xl">4.3</h1>
+                <figure class="OverallStarRatingComponent flex-start flex " data-testid="OverallStarRatingComponent">
+                    <svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.0663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="halfStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-20">
+                                <stop offset="20%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-20&quot;)"></path>
+                    </svg></figure>
+                <hr class="mg-6 mt-7 hidden h-[1px] w-full sm:block lg:hidden">
+            </div>
+            <div data-testid="ratings-breakdown-div"
+                class="lg:place-items-right flex flex-col gap-2 sm:col-span-6 sm:col-start-1 sm:mt-0 lg:col-span-4 lg:col-start-4 lg:justify-between lg:gap-3">
+                <h2 data-testid="ratings-breakdown-h2"
+                    class="mb-1 text-left text-xl text-spacecadet-800 sm:text-left lg:text-2xl"></h2>
+                <div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">4-5</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:52.63157894736842%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline">71%</span>)</a>
+                    </div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">3-4</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:42.10526315789473%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline">29%</span>)</a>
+                    </div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">2-3</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:5.263157894736842%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline"></span>)</a>
+                    </div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">1-2</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:0%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline"></span>)</a>
+                    </div>
+                </div>
+            </div>
+            <div data-testid="secondary-ratings"
+                class="flex flex-col gap-2 sm:col-span-6 sm:col-start-7 sm:ml-6 lg:col-span-5 lg:col-start-8 lg:ml-0 lg:justify-between lg:gap-3">
+                <h2 data-testid="secondary-ratings-h2"
+                    class="mb-1 text-left text-xl text-spacecadet-800 sm:text-left lg:text-2xl">Secondary Ratings</h2>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Placements</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="emptyStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-0">
+                                        <stop offset="0%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-0&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.3</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Infrastructure</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="emptyStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-50">
+                                        <stop offset="50%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-50&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.0</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Faculty & Course Curriculum</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="halfStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-0">
+                                        <stop offset="0%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-0&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.4</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Crowd & Campus Life</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="halfStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-50">
+                                        <stop offset="50%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-50&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.0</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Value for Money</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="halfStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-0">
+                                        <stop offset="0%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-0&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">
+                            4.7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br>
+
+    <div class="mt-16 " id="admission">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl">NLU Delhi Admission Process 2024</dt>
+                <dd>
+
+                    <p class="my-6">
+                        National Law University, Delhi (NLUD) admission is entrance-based. The university offers 11 law programmes at UG, PG, diploma, PG diploma, and PhD levels. NLU Delhi conducts AILET for the selection of the candidates in some of the programmes. Additionally, the university also offers UG diploma, PG diploma, certificates, and bridge courses. NLU Delhi offers admission to courses based on entrance exam and counselling. Below-mentioned are the NLU Delhi courses along with the eligibility criteria and their respective fee:</p>
+                    </p>
+                    <table style="height: 373px;" width="0">
+                        <tbody>
+                            <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                <th class="px-2" style="width: 481.484px; height: 29px;">
+                                    <p><strong>Course Name</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Entrance Exam/ Eligibility</strong></p>
+                                </th>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>BA LLB (Hons)</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Entrance exam: AILET</p>
+                                    <p>Class 12 with a minimum of 45% aggregate (40% aggregate for SC/ ST/ persons with disability)</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>LLM (one-year)</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Entrance exam: AILET</p>
+                                    <p>LLB or equivalent degree with a minimum 50% aggregate (45% aggregate for SC/ ST/ Person with Disability)</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>PG Diploma in LLM (Professional)</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Graduation in any discipline with a minimum of 50% aggregate or professional</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>PG Diploma</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Graduates or working professionals (two-year minimum experience for PG Diploma in Urban Environmental Management and Law)</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>PhD</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Entrance exam: Written test/ AILET</p>
+                                    <p>Master’s degree in Law or equivalent with a minimum of 55% aggregate</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>Diploma</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Class 12 or equivalent with a minimum of 55% aggregate</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>Certificate</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Practicing lawyers, company secretaries and chartered accountants and other related professionals.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    
+
+
+                    <div class="my-10">
+                        <p>For more detail refer below video:</p>
+                        <iframe width="100%" height="430"
+                            src="https://www.youtube.com/embed/WPosxp-9Ntg"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+
+                    </div>
+
+
+
+                    </dd>
+
+            </dl>
+        </div>
+    </div>
+
+
+<div class="mt-16" id="cutoff">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl flex flex-col"> <i class="uilpIcon cutoff"></i> <span
+                        class="font-bold text-lg">AILET Cut Off 2024</span></dt>
+                <dd>
+                    <br>
+                    <div class="accordion-nested">
+                        <dl>
+                            <dt class="font-bold text-lg">NLU Delhi AILET Cutoff 2024
+                        </dt>
+                            <dd>
+
+                                <p class="my-6">
+                                    <p>NLU Delhi admission 2024 to B.A. LL.B. (Hons.) and Master of Law (LL.M.) course is based on AILET scores followed by AILET Counselling which is conducted roundwise. AILET 2024 Counselling 2024 is ongoing. As of now Round 1 of BA LLB is out and Round 2 of LLM is out. The closing AIR for the latest AILET Round 2 for LLM is 36 for the General category. For the OBC category it is 150, for General PwD it is 232 and for ST it is 437.
+
+                                    </p>
+                                    <p>As per the NLU Delhi cutoff 2024, the closing rank for BA LLB in AILET First Provisional Merit List is 62, whereas for LLM it is 36 in Round 2 for the General category All India candidates. On comparing the latest round ranks for BA LLB, NLU Delhi cutoff 2024 stood at 62. For AILET cut off 2023, BA LLB closed at 62 only for Round 1. Hence, it can be concluded that the university has witnessed no change in ranks for the last two years. For 2022, AILET cutoff for BA LLB was 72 in R1, which is the highest of all the three previous years.
+
+                                        For LLM course, NLU Delhi cutoff based on AILET 2024 is 36 in R2, whereas it was 62 in 2023 and 48 in 2022. As per the analysis of last three years, NLU has witnessed a fluctuating trend for LLM in Round 2.</p>
+                                    <br>
+                                    <br>
+                                <!-- <p>CLAT Round 2 Closing Rank (General-All India)</p> -->
+                                </p>
+
+                                <!-- <table style="width: 100%;">
+                                    <tbody>
+                                        <tr class="bg-blue-300 mx-auto text-left ">
+                                            <th class="fcc1" style="width: 274.552px; text-align: center;">Course</th>
+                                            <th class="fcc1" style="width: 168.802px; text-align: center;">R1 (Closing Rank)</th>
+                                            <th style="width: 211.979px; text-align: center;">Last Round (Closing Rank)</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Computer Science and Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">115</td>
+                                            <td style="width: 211.979px; text-align: center;">118</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">Integrated B.Tech. + M.Tech. in Computer Science and Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">185</td>
+                                            <td style="width: 211.979px; text-align: center;">185</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Mathematics and Computing Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">350</td>
+                                            <td style="width: 211.979px; text-align: center;">352</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">Integrated B.Tech. + M.Tech. in Mathematics and Computing</td>
+                                            <td style="width: 168.802px; text-align: center;">429</td>
+                                            <td style="width: 211.979px; text-align: center;">429</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Electrical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">576</td>
+                                            <td style="width: 211.979px; text-align: center;">582</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Electrical Engineering (Power and Automation)</td>
+                                            <td style="width: 168.802px; text-align: center;">792</td>
+                                            <td style="width: 211.979px; text-align: center;">828</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Mechanical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">1757</td>
+                                            <td style="width: 211.979px; text-align: center;">1791</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Engineering and Computational Mechanics</td>
+                                            <td style="width: 168.802px; text-align: center;">1160</td>
+                                            <td style="width: 211.979px; text-align: center;">1255</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Chemical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2361</td>
+                                            <td style="width: 211.979px; text-align: center;">2365</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Engineering Physics</td>
+                                            <td style="width: 168.802px; text-align: center;">2562</td>
+                                            <td style="width: 211.979px; text-align: center;">2783</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Energy Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2785</td>
+                                            <td style="width: 211.979px; text-align: center;">3273</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">Integrated B.Tech. + M.Tech. in Chemical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">3996</td>
+                                            <td style="width: 211.979px; text-align: center;">4472</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Production and Industrial Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">3213</td>
+                                            <td style="width: 211.979px; text-align: center;">2910</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Civil Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">4237</td>
+                                            <td style="width: 211.979px; text-align: center;">4362</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Biochemical Engineering and Biotechnology</td>
+                                            <td style="width: 168.802px; text-align: center;">5139</td>
+                                            <td style="width: 211.979px; text-align: center;">5687</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Materials Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">4015</td>
+                                            <td style="width: 211.979px; text-align: center;">4055</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Textile Technology</td>
+                                            <td style="width: 168.802px; text-align: center;">6100</td>
+                                            <td style="width: 211.979px; text-align: center;">6690</td>
+                                        </tr>
+                                    </tbody>
+                                </table> -->
+                                
+                                <!-- <table style="width: 100%;">
+                                    <tbody>
+                                        <tr class="bg-blue-300 mx-auto text-left ">
+                                            <th class="fcc1" style="width: 274.552px; text-align: center;">Course</th>
+                                            <th class="fcc1" style="width: 168.802px; text-align: center;">R1 (Closing Rank)</th>
+                                            <th style="width: 211.979px; text-align: center;">Last Round (Closing Rank)</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Aerospace Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2568</td>
+                                            <td style="width: 211.979px; text-align: center;">2694</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Chemical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2605</td>
+                                            <td style="width: 211.979px; text-align: center;">2824</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Civil Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">4134</td>
+                                            <td style="width: 211.979px; text-align: center;">4371</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Computer Science and Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">66</td>
+                                            <td style="width: 211.979px; text-align: center;">67</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Electrical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">463</td>
+                                            <td style="width: 211.979px; text-align: center;">481</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Metallurgical Engineering and Materials Science</td>
+                                            <td style="width: 168.802px; text-align: center;">4428</td>
+                                            <td style="width: 211.979px; text-align: center;">4649</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Mechanical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">1691</td>
+                                            <td style="width: 211.979px; text-align: center;">1736</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Engineering Physics</td>
+                                            <td style="width: 168.802px; text-align: center;">1125</td>
+                                            <td style="width: 211.979px; text-align: center;">1749</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.S. in Chemistry</td>
+                                            <td style="width: 168.802px; text-align: center;">7253</td>
+                                            <td style="width: 211.979px; text-align: center;">9064</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.S. in Economics</td>
+                                            <td style="width: 168.802px; text-align: center;">2102</td>
+                                            <td style="width: 211.979px; text-align: center;">2102</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">Integrated B.Tech. in Electrical Engineering + M.Tech. in Microelectronics</td>
+                                            <td style="width: 168.802px; text-align: center;">966</td>
+                                            <td style="width: 211.979px; text-align: center;">981</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.S. in Mathematics</td>
+                                            <td style="width: 168.802px; text-align: center;">1567</td>
+                                            <td style="width: 211.979px; text-align: center;">1704</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Energy Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2694</td>
+                                            <td style="width: 211.979px; text-align: center;">2855</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Environmental Science and Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">5221</td>
+                                            <td style="width: 211.979px; text-align: center;">5401</td>
+                                        </tr>
+                                    </tbody>
+                                </table> -->
+                                <!-- <table style="width: 100%;">
+                                    <tbody>
+                                        <tr class="bg-blue-300 mx-auto text-left ">
+                                            <th class="fcc1" style="width: 274.552px; text-align: center;">Course</th>
+                                            <th class="fcc1" style="width: 168.802px; text-align: center;">R1 (Closing Rank)</th>
+                                            <th style="width: 211.979px; text-align: center;">Last Round (Closing Rank)</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Civil Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">5933</td>
+                                            <td style="width: 211.979px; text-align: center;">6116</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Aerospace Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">3754</td>
+                                            <td style="width: 211.979px; text-align: center;">4027</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Biological Science and Bioengineering</td>
+                                            <td style="width: 168.802px; text-align: center;">7520</td>
+                                            <td style="width: 211.979px; text-align: center;">8031</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Chemical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">4097</td>
+                                            <td style="width: 211.979px; text-align: center;">4344</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Computer Science and Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">215</td>
+                                            <td style="width: 211.979px; text-align: center;">238</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Electrical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">1305</td>
+                                            <td style="width: 211.979px; text-align: center;">1349</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Materials Science and Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">6405</td>
+                                            <td style="width: 211.979px; text-align: center;">6939</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Sc. in Economics</td>
+                                            <td style="width: 168.802px; text-align: center;">3242</td>
+                                            <td style="width: 211.979px; text-align: center;">3653</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Mechanical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2844</td>
+                                            <td style="width: 211.979px; text-align: center;">2940</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Sc. in Chemistry</td>
+                                            <td style="width: 168.802px; text-align: center;">10942</td>
+                                            <td style="width: 211.979px; text-align: center;">11824</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Sc. in Mathematics and Scientific Computing</td>
+                                            <td style="width: 168.802px; text-align: center;">987</td>
+                                            <td style="width: 211.979px; text-align: center;">1060</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Sc. in Physics</td>
+                                            <td style="width: 168.802px; text-align: center;">5572</td>
+                                            <td style="width: 211.979px; text-align: center;">6153</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">Discontinued (Oct 2021)- B.S. in Earth Science</td>
+                                            <td style="width: 168.802px; text-align: center;">10106</td>
+                                            <td style="width: 211.979px; text-align: center;">11426</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.S. in Statistics and Data Science</td>
+                                            <td style="width: 168.802px; text-align: center;">1090</td>
+                                            <td style="width: 211.979px; text-align: center;">1090</td>
+                                        </tr>
+                                    </tbody>
+                                </table> -->
+                                
+                                <!-- <table style="height: 373px;" width="0">
+                                    <tbody>
+                                        <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                            <th class="px-2" style="width: 481.484px; height: 29px;" type="header">
+                                                <p><strong>Course</strong></p>
+                                            </th>
+                                            <th class="px-2" style="width: 168.802px; height: 29px;">
+                                                <p><strong>2022</strong></p>
+                                            </th>
+                                            <th class="px-2" style="width: 168.802px; height: 29px;">
+                                                <p><strong>2023</strong></p>
+                                            </th>
+                                            <th class="px-2" style="width: 168.802px; height: 29px;">
+                                                <p><strong>2024</strong></p>
+                                            </th>
+                                        </tr>
+                                        <tr style="height: 29px;">
+                                            <td style="height: 29px; width: 481.484px;">
+                                                <p>B.A. LL.B. (Hons.)</p>
+                                            </td>
+                                            <td style="width: 168.802px; text-align: center;">85</td>
+                                            <td style="width: 168.802px; text-align: center;">108</td>
+                                            <td style="width: 168.802px; text-align: center;">99</td>
+                                        </tr>
+                                        <tr style="height: 29px;">
+                                            <td style="height: 29px; width: 481.484px;">
+                                                <p>LL.M.</p>
+                                            </td>
+                                            <td style="width: 168.802px; text-align: center;">– / –</td>
+                                            <td style="width: 168.802px; text-align: center;">130</td>
+                                            <td style="width: 168.802px; text-align: center;">148</td>
+                                        </tr>
+                                    </tbody>
+                                </table> -->
+                                
+                                
+                                
+                        </dl>
+                    </div>
+                </div>
+
+                    
+
+<div class="mt-16" id="infrastructureSection">
+    <div class="accordion">
+        <dl>
+            <dt class="font-bold text-2xl flex flex-col">Infrastructure/Facilities</dt>
+            <dd>
+                <p></p>
+                <div class="_subcontainer">
+                    <div class="facilityBox">
+                        <ul class="infraDataList">
+                            <li class="flex flex-row">
+                                <div class="icn w-1/4"><img class="w-46 h-46" src="./Images/book-stack.png" alt=""><strong>Library</strong></div>
+                                <div class="dtl w-3/4 ">
+                                    <p>National Law University’s Library has a sound collection of over 37500 books and bound volumes of journals and 180 current subscriptions to journals and newspapers along with 250 CDs and DVDs. Currently, the library is subscribing a number of online databases of international and national spheres. In this year, the library has added around 1210 books and 322 bound volumes journals. The Library has also enhanced its digital collection of 472 e-books from Oxford University Press and 464 e-books from Cambridge University Press. Till date, more than 13500 academic articles published in various international and national journals subscribed by the Library in print format have been indexed as ready reference research service. The Library performs a number of anticipatory and response based services to its clientele.</p>
+                                    <div class="childFaciltyBox"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icn"><img class="w-46 h-46" src="./Images/beds.png" alt=""><strong>Hostel</strong></div>
+                                <div class="dtl">
+                                    <div class="childFaciltyBox"><span class="bold">Boys Hostel</span><span>In-Campus Hostel</span><span class="comma">, </span><span class="bold">Girls Hostel</span><span>In-Campus Hostel</span></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icn"><img class="w-46 h-46" src="./Images/basketball.png" alt=""><strong>Sports Complex</strong></div>
+                                <div class="dtl"><span>Available Facilities: </span>
+                                    <div class="childFaciltyBox"><span class="">Badminton Court</span><span class="pipe">|</span><span class="">Basketball Court</span><span class="pipe">|</span><span class="">Cricket Ground</span><span class="pipe">|</span><span class="">Football Ground</span><span class="pipe">|</span><span class="">Volley Ball</span><span class="pipe">|</span><span class="">Table Tennis</span></div>
+                                </div>
+                            </li>
+                            <li class="wrapFlx">
+                                <div class="icn"><img class="w-46 h-46" src="./Images/law.png" alt=""><strong>Moot
+                                    Court
+                                    (Law)</strong></div>
+                                <div class="icn"><img class="w-46 h-46" src="./Images/cafeteria.png" alt=""><strong>Cafeteria</strong></div>
+                                <div class="icn"><img class="w-46 h-46" src="./Images/weights.png" alt=""><strong>Gym</strong></div>
+                                <div class="icn"><img class="w-46 h-46" src="./Images/hospital.png" alt=""><strong>Hospital / Medical Facilities</strong></div>
+                                <div class="icn"><img class="w-46 h-46" src="./Images/wifi.png" alt=""><strong>Wi-Fi Campus</strong></div>
+                                <div class="icn"><img class="w-46 h-46" src="./Images/bus.png" alt=""><strong>Shuttle Service</strong></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="otherFacilityBox"><strong class="OFHTag">Other Facilities:</strong>
+                        <div class="OFLabels"><span class="itm">Seminar Hall</span><span class="pipe">|</span><span class="itm">Open Air Theater</span><span class="pipe">|</span><span class="itm">Guest House</span><span class="pipe">|</span><span class="itm">Post Office Facility</span></div>
+                    </div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="static//accordian.js"></script>
+</body>
+</html>

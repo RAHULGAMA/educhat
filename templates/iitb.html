@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="Stylesheets/style.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>HOME</title>
+
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/style2.css" />
+    <link rel="stylesheet" href="static/home.css">
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white">
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="static/images/logom.png" alt="Logo">
+            </div>
+            <div class="navigation1">
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#aboutus">About</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                        <li> <a href="/review">Reviews</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+            </div>
+            <div class="auth">
+                <a href="{{ url_for('login') }}">Login</a>
+                <a href="{{ url_for('signup') }}">Signup</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="getstarte mx-auto justify-center">
+        <div class="navbar2 mx-auto justify-center space-between">
+            <div class="dropdown">
+                <button class="dropbtn">B.Tech</button>
+                <div class="dropdown-content">
+                    <a href="/iitm">IIT Madras , Indian Institute of technology</a>
+                    <a href="/iitd">IIT Delhi- Indian Institute of technology</a>
+                    <a href="/iitb">IIT Bombay - Indian Institute of technology</a>
+                    <a href="/iitk">IIT kanpur- Indian Institute of technology </a>
+                    <a href="/iitr">IIT Roorkee- Indian Institute of technology </a>
+                    <a href="/reva">REVA University</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">MBA</button>
+                <div class="dropdown-content">
+                    <a href="/iima">IIM AHMEDABAD  </a>
+                    <a href="/iimb"> IIM BANGALORE </a>
+                    <a href="/iimk"> IIM KOZHIKODE </a>
+                    <a href="/iimc">IIM CALCUTTA </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">MBBS</button>
+                <div class="dropdown-content">
+                    <a href="/aims">AIIMS NEW DELHI</a>
+                    <a href="/cmc">CHRISTIAN MEDICAL COLLEGE, VELLORE</a>
+                    <a href="/bhu">BANARAS HINDU UNIVERSITY,  VARANASI</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Law</button>
+                <div class="dropdown-content">
+                    <a href="/nlsiu">National law school of India University, Bangalore </a>
+                    <a href="/nlu">NLU Delhi, National law University</a>
+                    <a href="/nu">NLU Hyderabad, Nalsar University of law</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Architecture</button>
+                <div class="dropdown-content">
+                    <a href="/iitr_arch">IIT Roorkee</a>
+                    <a href="/nitc">NIT Calicut</a>
+                    <a href="/iitkgp">IIt Kharagpur</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <div class="mt-5">
+        <div class="rh rounded-bottom-lg">
+            <div class="divimg mx-auto justify-center ">
+                <img class="rounded-xl" src="static/images/iitb_bg.jpg" alt="banner image">
+            </div>
+
+            <h2 class="font-bold text-3xl my-4 px-4">IIT Bombay: Courses, Fees, Admission 2024, Placements, Ranking
+            </h2>
+
+            <div class=" flex flex-row px-4">
+                <a href="#">
+                    <p class="flex  "> <i class='bx bxs-map-pin text-black'></i><span class="mt-2 ml-1 font-bold">Powai,
+                            <span class=" text-blue-500"> Mumbai</span></span></p>
+                </a>
+                <a href="#">
+                    <p class="flex text-black mx-2"> <span class="mt-2 ml-1">|</span></p>
+                </a>
+
+                <a href="#">
+                    <p class="flex  "> <i class='bx bxs-star text-yellow-400'></i></i><span
+                            class="mt-2 ml-1 font-bold">4.6 /5
+                            <span class="text-blue-500">(498 reviews)</span></span></p>
+                </a>
+                <a href="#">
+                    <p class="flex text-black mx-2"> <span class="mt-2 ml-1">|</span></p>
+                </a>
+
+                <a href="#">
+                    <p class="flex  text-blue-500"> <i class='bx bx-comment text-black'></i><span
+                            class="mt-2 ml-1 font-bold">990
+                            Student
+                            Q&A</span></p>
+                </a>
+            </div>
+            <div class="h-20 nac">
+                <div class="flex flex-row mt-4 px-4 mb-3   ">
+
+                    <div class="bg-gray-100 rounded-lg px-2   mr-3"><span class="text-green-500 font-bold"></span>
+                        Public/Government University
+                    </div>
+                    <!-- <div class="bg-gray-100 rounded-lg px-2   mx-3">Private University </div> -->
+                    <div class="bg-gray-100 rounded-lg px-2   mx-3">Estd. 1958 </div>
+
+                </div>
+            </div>
+
+            <div class="px-4 my-5">
+                <div flex flex-row mx-auto justify-between>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#collegeinfo">College info</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#courses">Courses & fee</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#ratings">Reviews</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#admission">Admissions</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#cutoff">Cut-Offs</a>
+                    <a class="mx-5 font-bold scndmnu clicker" href="#infrastructureSection">Infrastructure</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="mt-16" id="collegeinfo">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl">IIT Bombay Highlights 2024</dt>
+                <dd>
+
+                    <p class="my-6">
+                        Established in 1958, the Indian Institute of Technology Bombay (also known as IIT Bombay or IIT
+                        Mumbai) is the first public college to have laid its foundation stone with assistance from
+                        UNESCO. In 1961, it was declared as an Institute of National Importance by the Parliament of
+                        India. It has also been declared a 'Deemed University' and is autonomous in nature. IIT Bombay
+                        is ranked 3 by NIRF 2023 under the Engineering category, 2 by India Today 2023 under the
+                        Engineering category, and 2 by India Today 2023 under the Engineering (Government) category.
+                        <br>
+                        Internationally, IIT Bombay is ranked 149 by the QS World University Rankings 2024 under the Top
+                        Global Universities category and 172 in the QS World Rankings 2023. IIT Bombay offers degree and
+                        dual degree programmes at the UG, PG and doctorate levels. The institute offers 80+ courses
+                        under 16 departments in the stream of Engineering, Technology, Science and Management. The
+                        applicants are chosen through national-level tests conducted by various authorities, such as JEE
+                        Advanced, GATE, etc.
+                        <br>
+                        With a lifespan of more than 60 years, IITB campus has grown to include 16 departments, 30+
+                        centres and three schools to offer more than 80 courses in the stream of Engineering and
+                        Technology, Science and Management at UG, PG and doctoral levels. Much like other IITs, the
+                        flagship course of IIT Bombay is BTech with a total intake of 1,558 students. A few of the
+                        important highlights regarding IITB are mentioned in the table below:
+                    </p>
+
+
+                    <table style="height: 373px;" width="0">
+                        <tbody>
+                            <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                <th class="px-2" style="width: 481.484px; height: 29px;">
+                                    <p><strong>Particulars</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 508.516px; height: 29px;">
+                                    <p><strong>Statistics</strong></p>
+                                </th>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>Establishment year | Ownership type</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>1958 | Public</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>Also known as</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>IIT Bombay</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 83px;">
+                                <td style="height: 83px; width: 465.828px;">
+                                    <p>Rankings (2024)</p>
+                                </td>
+                                <td style="height: 83px; width: 656.172px;">
+                                    <p>- 3rd by NIRF under the Engineering category</p>
+                                    <p>- 2nd by The India Today under the Engineering (Government)</p>
+                                    <p>- 2nd by The India Today under the Engineering category</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">Flagship courses</td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>BTech, MBA</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">
+                                    <p>Official Website</p>
+                                </td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p><a href="https://home.iitd.ac.in/" target="_blank">https://home.iitd.ac.in/</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">Campus area</td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>550 acre</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">Recognition</td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>UGC, AICTE</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">Location</td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Bombay</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">Number of courses</td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>80+ courses</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 29px;">
+                                <td style="height: 29px; width: 465.828px;">Type of scholarships</td>
+                                <td style="height: 29px; width: 656.172px;">
+                                    <p>Merit-based, Need-based</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+
+
+
+                    <div class="my-10">
+                        <p class="my-4">Check out more on IIT Bombay Highlights in the below videos:</p>
+
+
+
+                        <iframe class="rounded-lg" width="100%" height="315"
+                            src="https://www.youtube.com/embed/IO-8o24pnOk" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+
+                        <iframe class="rounded-lg" width="100%" height="430"
+                            src="https://www.youtube.com/embed/XNMtDOpyxP4" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+
+                        <iframe class="rounded-lg" width="100%" height="430"
+                            src="https://www.youtube.com/embed/Uw_8dji1E5k" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+                        <br>
+
+                    </div>
+
+
+
+
+                    <div class="accordion-nested">
+                        <dl>
+                            <dt class="font-bold">Q:
+                                Can I get MTech in IIT Bombay with GATE?</dt>
+                            <dd>
+                                <div class="accordion-nested">
+
+                                    <div>
+                                        <p>A:
+                                            Yes, GATE score is required to get admission to IIT Bombay course. However,
+                                            aspirants who have not qualified GATE can also get admission based on
+                                            written test conducted by the institute. The shortlisted candidates are
+                                            further called for a personal interview round. In order to be eligible to
+                                            apply for the course, an aspirant must have a BE/ BTech/ BSc/ Bachelor of
+                                            Architecture and Bachelor of Planning/ MSc/ MCA/ MBBS/ MPharm/ BPharm/ BDS/
+                                            degree recognised equivalent to BE/ BTech with a minimum of 60% aggregate
+                                            (55% aggregate for SC/ ST/ PwD category) earned through Associate Membership
+                                            Examinations conducted by recognised professional bodies to apply for MTech
+                                            course.
+                                    </div>
+
+
+
+
+                                </div>
+                            </dd>
+                            <dt class="font-bold">Q:
+
+                                What is IIT Bombay famous for?
+                            </dt>
+                            <dd>
+                                <div class="accordion-nested">
+                                    <div>
+                                        <p>A:
+                                            IIT Bombay is a prominent Engineering institute in India. The institute is
+                                            famous for several things, such as its academic excellence. IIT Bombay has
+                                            been consistently ranked among the top institutes in India for offering good
+                                            Engineering courses. The institute has a challenging and rigorous curriculum
+                                            which covers a wide range of Engineering disciplines. The institute has a
+                                            vast and diverse alumni network spread across globe. The institute has a
+                                            vibrant student life with a range of extracurricular activities. Overall,
+                                            IIT Bombay is famous for its academic excellence, alumni network, beautiful
+                                            campus and vibrant student life. </p>
+                                    </div>
+                                </div>
+                            </dd>
+
+
+                            <dt class="font-bold">Q:
+                                What are the pros and cons of studying in IIT Bombay?
+                            </dt>
+                            <dd>
+                                <div class="accordion-nested">
+                                    <div>
+                                        <p>A:
+                                            There are several pros and cons for studying at IIT Bombay. Candidates can
+                                            read the below information to know:
+                                            <br>
+                                            Pros:
+                                            <br>
+                                            IIT Bombay is the top institute for technology in India.
+                                            Best place for over all development.
+                                            Huge attractive packages in top MNCs for many students.
+                                            The institute has collaborations with leading organizations, which provide
+                                            good opportunities to students for internships, placements and live
+                                            projects.
+                                            <br>
+                                            Cons:
+                                            <br>
+                                            The institute has an intense academic pressure and high expectations can be
+                                            overwhelming, leading to stress and anxiety.
+                                            Maintaining a balance in academics, extracurricular activities, and personal
+                                            life can be challenging, requiring strong time management skills.
+                                            Being surrounded by brilliant peers can lead to feelings of inadequacy or
+                                            insecurity, requiring a strong sense of self-worth.
+                                            Henceforth, whether IIT Bombay is a good fit for you depends on your
+                                            individual priorities and preferences. Weighing both the pros and cons,
+                                            considering your academic goals, personality, and adaptability, will help
+                                            you make an informed decision.<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+                    </div>
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-16" id="courses">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl">IIT Bombay Courses and Fees 2024</dt>
+                <dd>
+
+                    <p class="my-6">
+                    <div>
+                        <p>IIT Bombay offers over 86 courses at UG, PG, and PhD levels in the streams of Engineering,
+                            Technology, Science, and Management. BTech is the flagship course of IIT Bombay offered
+                            based on JEE Main and JEE Advanced scores. Besides, IIT Bombay also offers short-term
+                            certificate online courses like Object-oriented Programming, Programming Basics, etc.</p>
+                        </p>
+
+                        <div class="my-10">
+
+                            <iframe width="100%" height="430" src="https://www.youtube.com/embed/jMi0SUvCtwI"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                            <br>
+
+                        </div>
+                        <table class="my-10">
+                            <tbody class=" border-2">
+                                <tr class="bg-blue-300 mx-auto text-left" style="height: 29px;">
+                                    <th class="px-2" style="width: 481.484px; height: 29px;">
+                                        <p><strong>Courses</strong></p>
+                                    </th>
+                                    <th class="px-2" style="width: 508.516px; height: 29px;">
+                                        <p><strong>Tuition Fees</strong></p>
+                                    </th>
+                                    <th class="px-2" style="width: 508.516px; height: 29px;">
+                                        <p><strong>Eligibility</strong></p>
+                                    </th>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="width: 481.484px; height: 29px;">
+                                        <p>B.E. / B.Tech (27 courses)</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>8 L - 20 L</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>10+2 : 75 %<br>Exams : JEE Main, JEE Advanced</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="width: 481.484px; height: 29px;">
+                                        <p>M.E./M.Tech (71 courses)</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>1.2 L - 10 L</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>10+2 : 75 %<br>Graduation : 60 %<br>Exams : GATE, COAP + 2 More</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="width: 481.484px; height: 29px;">
+                                        <p>M.Sc. (11 courses)</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>30 K - 2.7 L</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>Exams : IIT JAM</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="width: 481.484px; height: 29px;">
+                                        <p>B.Sc. (3 courses)</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>8 L</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>10+2 : 75 %<br>Exams : JEE Main, JEE Advanced</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="width: 481.484px; height: 29px;">
+                                        <p>MBA/PGDM (2 courses)</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>8 L - 20 L</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>Graduation : 50 %<br>Exams : CAT, JEE Main + 2 More</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 29px;">
+                                    <td style="width: 481.484px; height: 29px;">
+                                        <p>Ph.D. (25 courses)</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>21.3 K - 5.7 L</p>
+                                    </td>
+                                    <td style="width: 508.516px; height: 29px;">
+                                        <p>Graduation : 60 %<br>Exams : GATE, IIT JAM + 3 More</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+
+
+
+    <br><br>
+
+    <div class="ratingssection" id="ratings">
+        <div
+            class=" mt-4 grid grid-cols-1 gap-8 px-4 pb-8 pt-6 sm:grid-cols-12 sm:grid-rows-2 sm:gap-x-0 sm:gap-y-6 sm:px-6 lg:grid-rows-1 lg:gap-14 lg:p-10 lg:px-8 lg:py-10">
+            <div
+                class="flex flex-col place-items-center text-center sm:col-span-12 lg:col-span-3 lg:justify-between lg:gap-3">
+                <h2 data-testid="overall-rating-h2"
+                    class="font-bold text-center text-xl text-spacecadet-800 lg:mb-1 lg:text-xl">Overall Rating
+                    <span class="text-gray-400 font-normal">(out of 5)</span>
+                </h2>
+                <h1 data-testid="overall-rating-h1" class="text-4xl sm:mt-4 sm:text-5xl">4.6</h1>
+                <figure class="OverallStarRatingComponent flex-start flex " data-testid="OverallStarRatingComponent">
+                    <svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="fullStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-100">
+                                <stop offset="100%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-100&quot;)"></path>
+                    </svg><svg class="halfStar" data-testid="StarComponent" height="33.33" viewBox="0 0 30 27"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient-20">
+                                <stop offset="20%" stop-color="#FD810D"></stop>
+                                <stop offset="0%" stop-color="transparent"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path stroke="null" id="svg_2" fill="#fd810d"
+                            d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                        </path>
+                        <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                            fill="url(&quot;#gradient-20&quot;)"></path>
+                    </svg>
+                </figure>
+                <hr class="mg-6 mt-7 hidden h-[1px] w-full sm:block lg:hidden">
+            </div>
+            <div data-testid="ratings-breakdown-div"
+                class="lg:place-items-right flex flex-col gap-2 sm:col-span-6 sm:col-start-1 sm:mt-0 lg:col-span-4 lg:col-start-4 lg:justify-between lg:gap-3">
+                <h2 data-testid="ratings-breakdown-h2"
+                    class="mb-1 text-left text-xl text-spacecadet-800 sm:text-left lg:text-2xl"></h2>
+                <div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">4-5</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:52.63157894736842%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline">89%</span>)</a>
+                    </div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">3-4</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:42.10526315789473%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline">10%</span>)</a>
+                    </div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">2-3</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:5.263157894736842%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline">1%</span>)</a>
+                    </div>
+                    <div class="flex place-items-center gap-2 ">
+                        <p data-testid="ratings-breakdown-items"
+                            class="col-span-1 text-base font-bold text-black sm:text-lg">1-2</p>
+                        <div class="col-span-1"><svg class="fullStar" data-testid="StarComponent" height="20"
+                                viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg></div>
+                        <div class="col-span-12 max-w-scoreBar grow">
+                            <figure class="ScoreBarComponent h-2.5 w-full rounded-full bg-grey-100">
+                                <figure class="max-w-full bg-spacecadet-600"
+                                    style="height:100%;width:0%;border-radius:inherit"></figure>
+                            </figure>
+                        </div><a data-testid="ratings-breakdown-values" class="col-span-2 text-grey-900">(<span
+                                class="cursor-pointer text-sm text-spacecadet-400 underline"></span>)</a>
+                    </div>
+                </div>
+            </div>
+            <div data-testid="secondary-ratings"
+                class="flex flex-col gap-2 sm:col-span-6 sm:col-start-7 sm:ml-6 lg:col-span-5 lg:col-start-8 lg:ml-0 lg:justify-between lg:gap-3">
+                <h2 data-testid="secondary-ratings-h2"
+                    class="mb-1 text-left text-xl text-spacecadet-800 sm:text-left lg:text-2xl">Secondary Ratings</h2>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Placements</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="emptyStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-0">
+                                        <stop offset="0%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-0&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.6</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Infrastructure</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="emptyStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-50">
+                                        <stop offset="50%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-50&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.6</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Faculty & Course Curriculum</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="halfStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-0">
+                                        <stop offset="0%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-0&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.5</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Crowd & Campus Life</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="halfStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-50">
+                                        <stop offset="50%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-50&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">4.7</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <p data-testid="secondary-ratings-items"
+                        class="col-span-6 text-base text-grey-900 sm:w-40 lg:text-lg">
+                        Value for Money</p>
+                    <div class="col-span-6 flex gap-1.5">
+                        <figure class="OverallStarRatingComponent flex-start flex "
+                            data-testid="OverallStarRatingComponent"><svg class="fullStar" data-testid="StarComponent"
+                                height="22.33" viewBox="0 0 30 27" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="fullStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-100">
+                                        <stop offset="100%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-100&quot;)"></path>
+                            </svg><svg class="halfStar" data-testid="StarComponent" height="22.33" viewBox="0 0 30 27"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="gradient-0">
+                                        <stop offset="0%" stop-color="#FD810D"></stop>
+                                        <stop offset="0%" stop-color="transparent"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path stroke="null" id="svg_2" fill="#fd810d"
+                                    d="m14.9886,5.48716l2.13994,4.06598l0.68478,1.30269l1.56216,0.19738l4.85766,0.65135l-3.4667,3.17778l-1.13417,1.00663l0.27819,1.44086l0.81318,4.38178l-4.34408,-1.97378l-1.39096,-0.7303l-1.39096,0.7303l-4.34408,1.97378l0.81318,-4.38178l0.27819,-1.44086l-1.13417,-1.00663l-3.5095,-3.17778l4.85766,-0.65135l1.56216,-0.19738l0.72758,-1.30269l2.13994,-4.06598m0,-5.4871a0.62058,0.57239 0 0 0 -0.57778,0.33554l-4.27988,7.99379l-9.56553,1.28295a0.64198,0.59213 0 0 0 -0.36379,1.02636l6.91201,6.21739l-1.62635,8.80304a0.64198,0.59213 0 0 0 0.64198,0.69082l0.32099,0l8.55976,-4.14493l8.55976,4.14493l0.32099,0a0.64198,0.59213 0 0 0 0.64198,-0.69082l-1.62635,-8.7833l6.91201,-6.21739a0.64198,0.59213 0 0 0 -0.36379,-1.02636l-9.56553,-1.28295l-4.27988,-7.8951a0.62058,0.57239 0 0 0 -0.62058,-0.45397z">
+                                </path>
+                                <path stroke="null" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5396 0.340047L19.5396 8.44005L28.4796 9.74005C28.7143 9.7653 28.9124 9.9258 28.9857 10.1502C29.0591 10.3745 28.9941 10.621 28.8196 10.78L22.3596 17.08L23.8796 26C23.9135 26.2305 23.8154 26.4605 23.6255 26.5955C23.4357 26.7305 23.1862 26.7477 22.9796 26.64L14.9796 22.44L6.97961 26.64C6.77658 26.7269 6.54266 26.6993 6.3655 26.5674C6.18833 26.4356 6.09467 26.2195 6.11961 26L7.63961 17.1L1.17961 10.78C1.00516 10.621 0.940141 10.3745 1.01349 10.1502C1.08684 9.9258 1.28492 9.7653 1.51961 9.74005L10.4596 8.44005L14.4596 0.440047C14.5391 0.222166 14.737 0.0696023 14.968 0.0482192C15.1989 0.0268361 15.4215 0.140463 15.5396 0.340047Z"
+                                    fill="url(&quot;#gradient-0&quot;)"></path>
+                            </svg></figure>
+                        <p data-testid="secondary-ratings-values"
+                            class="flex break-keep text-base font-bold text-grey-900 lg:text-lg">
+                            4.7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br>
+
+    <div class="mt-16 " id="admission">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl">IIT Bombay Admissions Process 2024</dt>
+                <dd>
+
+                    <p class="my-6">
+                    <p>IIT Bombay course admission 2024 is both merit and entrance-based. IITB accepts national-level
+                        entrance exams like JEE Main, JEE Advanced, GATE, etc., for admission to specific courses. The
+                        institute offers over 86 courses at UG, PG, and PhD levels in the streams of Engineering,
+                        Technology, Science, and Management. Besides, IIT Bombay also offers short-term certificate
+                        online courses like Object-oriented Programming, Programming Basics, etc. IIT Bombay cutoff will
+                        be considered for the final selection of the candidates. As per NIRF 2023 Rankings, IIT Bombay
+                        ranked at '7' under the 'Innovation' Category. This is a newly introduced Engineering category
+                        of NIRF.</p>
+                    </p>
+                    <table style="border-collapse: collapse; width: 100%; height: 288px;" border="1">
+                        <tbody>
+                            <tr class="bg-blue-300 text-left " style="height: 29px;">
+                                <th class="px-2" style="width: 33.3056%; height: 29px;">
+                                    <p><strong>Courses</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 33.3056%; height: 29px;">
+                                    <p><strong>Eligibility & Selection Criteria</strong></p>
+                                </th>
+                                <th class="px-2" style="width: 33.3333%; height: 29px;">Selection Criteria</th>
+                            </tr>
+                            <tr style="height: 56px;">
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p class="text-blue-500"><a href="btech-bc">BTech</a></p>
+                                </td>
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p>Class 12 from a recognised board with a minimum 75% aggregate</p>
+                                </td>
+                                <td style="width: 33.3333%; height: 56px;">
+                                    <p>JEE Main/ JEE Advanced + JoSAA counselling</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 56px;">
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p class="text-blue-500"><a href="./index.html ">MBA</a></p>
+                                </td>
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p>Bachelor’s degree or equivalent with a minimum 60% aggregate</p>
+                                </td>
+                                <td style="width: 33.3333%; height: 56px;">
+                                    <p>CAT + GD & PI</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 56px;">
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p class="text-blue-500">MTech</p>
+                                </td>
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p>BE/ BTech/ MSc or equivalent with a minimum 60% aggregate</p>
+                                </td>
+                                <td style="width: 33.3333%; height: 56px;">
+                                    <p>GATE + COAP Counselling</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 56px;">
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p class="text-blue-500">MSc</p>
+                                </td>
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p>Bachelor’s degree in a relevant stream with a minimum 55% aggregate</p>
+                                </td>
+                                <td style="width: 33.3333%; height: 56px;">
+                                    <p>IIT JAM + Counselling</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 56px;">
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p class="text-blue-500">BDes</p>
+                                </td>
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p>Candidates from the Science Stream with Physics, Chemistry and Mathematics as
+                                        subjects</p>
+                                </td>
+                                <td style="width: 33.3333%; height: 56px;">
+                                    <p>UCEED</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 56px;">
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p class="text-blue-500">M.Des</p>
+                                </td>
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p>BE/ BTech/ BDes/ BArch or equivalent degree with a minimum 60% aggregate</p>
+                                </td>
+                                <td style="width: 33.3333%; height: 56px;">
+                                    <p>UCEED</p>
+                                </td>
+                            </tr>
+                            <tr style="height: 56px;">
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p class="text-blue-500">PG Diploma</p>
+                                </td>
+                                <td style="width: 33.3056%; height: 56px;">
+                                    <p>Bachelor's degree in the relevant fields from a recognised institute</p>
+                                </td>
+                                <td style="width: 33.3333%; height: 56px;">
+                                    <p>Merit-based</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+                    <div class="my-10">
+                        <iframe width="100%" height="430" src="https://www.youtube.com/embed/CjqdDkITEkY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                        <br>
+
+                    </div>
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+
+
+    <div class="mt-16" id="cutoff">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl flex flex-col"> <i class="uilpIcon cutoff"></i> <span
+                        class="text-sm text-gray-400 font-normal">IIT Bombay</span> JEE-Advanced Cut Off 2024</dt>
+                <dd>
+                    <br>
+                    <div class="accordion-nested">
+                        <dl>
+                            <dt class="font-bold text-lg">IIT Bombay Cutoff 2023 </dt>
+                            <dd>
+
+                                <p class="my-6">
+                                <p>As per the IIT Bombay cutoff 2023, the Last Round closing rank for BTech ranged
+                                    between 67 and 9064, among which B.Tech. in Computer Science and Engineering was the
+                                    most competitive specialisation, followed by B.Tech. in Electrical Engineering. The
+                                    Round 1 and the Last Round IIT Bombay cutoff 2023 for B.Tech. in Computer Science
+                                    and Engineering were 66 and 67, respectively for the General All India category
+                                    candidates.
+
+                                    During the IIT Bombay CSE cut off 2022, the Round 1 and the Last Round closing ranks
+                                    stood at 60 and 305, showing a declining trend for 2023 for the B.Tech. in Computer
+                                    Science and Engineering course for both Round 1 and the Last Round. Check out the
+                                    table given below for all the BTech specialisations offered at IIT Bombay for the
+                                    General AI category students. </p>
+                                <br>
+                                <br>
+
+                                </p>
+
+
+                                <table style="width: 100%;">
+                                    <tbody>
+                                        <tr class="bg-blue-300 mx-auto text-left ">
+                                            <th class="fcc1" style="width: 274.552px; text-align: center;">Course</th>
+                                            <th class="fcc1" style="width: 168.802px; text-align: center;">R1 (Closing
+                                                Rank)</th>
+                                            <th style="width: 211.979px; text-align: center;">Last Round (Closing Rank)
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Aerospace Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2568</td>
+                                            <td style="width: 211.979px; text-align: center;">2694</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Chemical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2605</td>
+                                            <td style="width: 211.979px; text-align: center;">2824</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Civil Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">4134</td>
+                                            <td style="width: 211.979px; text-align: center;">4371</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Computer Science and Engineering
+                                            </td>
+                                            <td style="width: 168.802px; text-align: center;">66</td>
+                                            <td style="width: 211.979px; text-align: center;">67</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Electrical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">463</td>
+                                            <td style="width: 211.979px; text-align: center;">481</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Metallurgical Engineering and
+                                                Materials Science</td>
+                                            <td style="width: 168.802px; text-align: center;">4428</td>
+                                            <td style="width: 211.979px; text-align: center;">4649</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Mechanical Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">1691</td>
+                                            <td style="width: 211.979px; text-align: center;">1736</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Engineering Physics</td>
+                                            <td style="width: 168.802px; text-align: center;">1125</td>
+                                            <td style="width: 211.979px; text-align: center;">1749</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.S. in Chemistry</td>
+                                            <td style="width: 168.802px; text-align: center;">7253</td>
+                                            <td style="width: 211.979px; text-align: center;">9064</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.S. in Economics</td>
+                                            <td style="width: 168.802px; text-align: center;">2102</td>
+                                            <td style="width: 211.979px; text-align: center;">2102</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">Integrated B.Tech. in Electrical Engineering +
+                                                M.Tech. in Microelectronics</td>
+                                            <td style="width: 168.802px; text-align: center;">966</td>
+                                            <td style="width: 211.979px; text-align: center;">981</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.S. in Mathematics</td>
+                                            <td style="width: 168.802px; text-align: center;">1567</td>
+                                            <td style="width: 211.979px; text-align: center;">1704</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Energy Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">2694</td>
+                                            <td style="width: 211.979px; text-align: center;">2855</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 274.552px;">B.Tech. in Environmental Science and
+                                                Engineering</td>
+                                            <td style="width: 168.802px; text-align: center;">5221</td>
+                                            <td style="width: 211.979px; text-align: center;">5401</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                        </dl>
+                    </div>
+        </div>
+    </div>
+
+
+
+    <div class="mt-16" id="infrastructureSection">
+        <div class="accordion">
+            <dl>
+                <dt class="font-bold text-2xl flex flex-col">Infrastructure/Facilities</dt>
+                <dd>
+                    <p>IIT Bombay has a technologically advanced campus. The premier institute has one of the best
+                        campuses in India state-of-the-art infrastructure, modern amenities and research laboratories.
+                        IIT Bombay offers hostel facilities to both domestic and international students. A special
+                        hostel is constructed to offer accommodation to foreign national students. The classrooms of IIT
+                        Bombay are bestowed with audio-visual aids along with digital smart boards to promote innovative
+                        and interactive learning.
+                        <br>
+                        Other facilities provided by IIT Bombay include seminar rooms, auditoriums, recreation labs,
+                        mess, cafeteria, gym, sports complex, convenience store, ATM, healthcare centre, etc. A few of
+                        the infrastructural USPs offered by IIT Bombay are discussed below:
+                    </p>
+
+
+                    <div class="_subcontainer">
+                        <div class="facilityBox">
+                            <ul class="infraDataList">
+                                <li class="flex flex-row">
+                                    <div class="icn w-1/4"><img class="w-46 h-46" src="./Images/book-stack.png"
+                                            alt=""><strong>Library</strong>
+                                    </div>
+                                    <div class="dtl w-3/4 ">
+                                        <p>The IIT Bombay library system has a central library and departmental
+                                            libraries. The library houses a collection of 2 lakh books, 1.59 bound
+                                            volumes of journals, over 45,000 standards, and 3,200+ microfilms among
+                                            others. It has also incorporated video cassettes, CDs, and online electronic
+                                            journals
+
+                                        </p>
+                                        <div class="childFaciltyBox"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/beds.png"
+                                            alt=""><strong>Hostel</strong></div>
+                                    <div class="dtl">
+                                        <div class="childFaciltyBox"><span class="bold">Boys
+                                                Hostel</span><span>In-Campus
+                                                Hostel</span><span class="comma">, </span><span class="bold">Girls
+                                                Hostel</span><span>In-Campus Hostel</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/basketball.png"
+                                            alt=""><strong>Sports
+                                            Complex</strong></div>
+
+                                    <div class="dtl"><span>Available Facilities: </span>
+                                        <div class="childFaciltyBox"><span class="">Badminton Court</span><span
+                                                class="pipe">|</span><span class="">Basketball Court</span><span
+                                                class="pipe">|</span><span class="">Cricket
+                                                Ground</span><span class="pipe">|</span><span class="">Football
+                                                Ground</span><span class="pipe">|</span><span class="">Volley
+                                                Ball</span><span class="pipe">|</span><span class="">Table Tennis</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/chemical.png"
+                                            alt=""><strong>Labs</strong></div>
+                                    <div class="dtl"><span>Available Facilities: </span>
+                                        <div class="childFaciltyBox"><span class="">Civil Engineering Lab</span><span
+                                                class="pipe">|</span><span class="">Chemistry Lab</span><span
+                                                class="pipe">|</span><span class="">Computer Lab</span><span
+                                                class="pipe">|</span><span class="">Electrical
+                                                Lab</span><span class="pipe">|</span><span class="">Electronics
+                                                Lab</span><span class="pipe">|</span><span class="">Mechanical
+                                                Lab</span><span class="pipe">|</span><span class="">Physics Lab</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="wrapFlx">
+                                    <!-- <div class="icn"><img class="w-46 h-46" src="./Images/law.png" alt=""><strong>Moot
+                                            Court
+                                            (Law)</strong></div> -->
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/cafeteria.png"
+                                            alt=""><strong>Cafeteria</strong>
+                                    </div>
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/weights.png"
+                                            alt=""><strong>Gym</strong></div>
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/hospital.png"
+                                            alt=""><strong>Hospital
+                                            / Medical
+                                            Facilities</strong></div>
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/wifi.png" alt=""><strong>Wi-Fi
+                                            Campus</strong></div>
+                                    <div class="icn"><img class="w-46 h-46" src="./Images/bus.png"
+                                            alt=""><strong>Shuttle
+                                            Service</strong></div>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="otherFacilityBox"><strong class="OFHTag">Other Facilities:</strong>
+                            <div class="OFLabels"><span class="itm">Seminar Hall</span><span class="pipe">|</span><span
+                                    class="itm">Open Air
+                                    Theater</span><span class="pipe">|</span><span class="itm">Guest
+                                    House</span><span class="pipe">|</span><span class="itm">
+                                    Post Office Facility</span>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="static/accordian.js"></script>
+
+</html>

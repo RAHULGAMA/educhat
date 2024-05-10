@@ -1,0 +1,735 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Tell me your name",
+        "who are you?",
+        "what is your name"
+      ],
+      "responses": [
+        "i am none",
+        "i am your assistant"
+      ]
+    },
+    {
+      "tag": "hod",
+      "patterns": [
+        "hod",
+        "hod name",
+        "who is the hod"
+      ],
+      "responses": [
+        "HODs differ for each branch, please be more specific like: (HOD it)",
+        "Head of the department",
+        "who handels a brach ex:CSE,CIVIL,MECH"
+      ]
+    },
+    {
+      "tag": "user_registration",
+      "patterns": [
+        "How do I register on the website?",
+        "Can you guide me through the registration process?",
+        "Where can I sign up?"
+      ],
+      "responses": [
+        "To register on our website, simply click on the 'Sign Up' or 'Register' button located on the homepage. Follow the prompts to create your account by providing necessary information such as your name, email address, and password."
+      ]
+    },
+    {
+      "tag": "forgot_password",
+      "patterns": [
+        "I forgot my password",
+        "How can I reset my password?",
+        "Forgot password"
+      ],
+      "responses": [
+        "If you've forgotten your password, don't worry! You can reset it easily. Just click on the 'Forgot Password' option on the login page. Follow the instructions provided to reset your password."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support?",
+        "Is there a way to get in touch with customer service?",
+        "I need assistance. How do I contact you?"
+      ],
+      "responses": [
+        "You can contact our support team by clicking on the 'Contact Us' link located in the footer of our website. Alternatively, you can email us at [support@email.com] or call our helpline at [phone number]. Our support representatives will be happy to assist you."
+      ]
+    },
+    {
+      "tag": "student_questions",
+      "patterns": [
+        "How do I choose the right college?",
+        "What factors should I consider when selecting a college?",
+        "Can you provide tips for college selection?"
+      ],
+      "responses": [
+        "Choosing the right college is a crucial decision. Consider factors such as location, academic programs, campus culture, facilities, financial aid, and career opportunities. We can help you explore these factors further. Would you like assistance with any specific aspect?"
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "How can I find financial aid for college?",
+        "What types of financial aid are available?",
+        "Can you guide me on securing scholarships?"
+      ],
+      "responses": [
+        "There are various sources of financial aid for college, including scholarships, grants, loans, and work-study programs. We can assist you in exploring scholarship opportunities, understanding eligibility criteria, and applying for financial aid. Would you like more information on a specific type of financial assistance?"
+      ]
+    },
+    {
+      "tag": "college_application",
+      "patterns": [
+        "How do I apply to colleges?",
+        "What is the college application process like?",
+        "Can you guide me on filling out college applications?"
+      ],
+      "responses": [
+        "The college application process typically involves researching colleges, preparing application materials (such as transcripts and essays), completing application forms, and submitting required documents. We can provide guidance on each step of the process and answer any questions you may have. Would you like assistance with a specific aspect of college applications?"
+      ]
+    },
+    {
+      "tag": "college_majors",
+      "patterns": [
+        "How do I decide on a college major?",
+        "What factors should I consider when choosing a major?",
+        "Can you suggest majors based on my interests?"
+      ],
+      "responses": [
+        "Choosing a college major involves considering your interests, skills, career goals, and the job market. We can help you explore different majors, understand their requirements and career prospects, and make an informed decision. Would you like assistance in exploring specific majors?"
+      ]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "What is campus life like at [college]?",
+        "Can you tell me about student life on campus?",
+        "Are there extracurricular activities available at colleges?"
+      ],
+      "responses": [
+        "Campus life varies from college to college and includes a range of activities such as clubs, sports, cultural events, and community service opportunities. We can provide information about campus facilities, student organizations, and events at specific colleges. Would you like to know more about campus life at a particular college?"
+      ]
+    },
+    {
+      "tag": "student_questions",
+      "patterns": [
+        "How do I choose the right college?",
+        "What factors should I consider when selecting a college?",
+        "Can you provide tips for college selection?"
+      ],
+      "responses": [
+        "Choosing the right college is a crucial decision. Consider factors such as location, academic programs, campus culture, facilities, financial aid, and career opportunities. We can help you explore these factors further. Would you like assistance with any specific aspect?"
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "How can I find financial aid for college?",
+        "What types of financial aid are available?",
+        "Can you guide me on securing scholarships?"
+      ],
+      "responses": [
+        "There are various sources of financial aid for college, including scholarships, grants, loans, and work-study programs. We can assist you in exploring scholarship opportunities, understanding eligibility criteria, and applying for financial aid. Would you like more information on a specific type of financial assistance?"
+      ]
+    },
+    {
+      "tag": "college_application",
+      "patterns": [
+        "How do I apply to colleges?",
+        "What is the college application process like?",
+        "Can you guide me on filling out college applications?"
+      ],
+      "responses": [
+        "The college application process typically involves researching colleges, preparing application materials (such as transcripts and essays), completing application forms, and submitting required documents. We can provide guidance on each step of the process and answer any questions you may have. Would you like assistance with a specific aspect of college applications?"
+      ]
+    },
+    {
+      "tag": "college_majors",
+      "patterns": [
+        "How do I decide on a college major?",
+        "What factors should I consider when choosing a major?",
+        "Can you suggest majors based on my interests?"
+      ],
+      "responses": [
+        "Choosing a college major involves considering your interests, skills, career goals, and the job market. We can help you explore different majors, understand their requirements and career prospects, and make an informed decision. Would you like assistance in exploring specific majors?"
+      ]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "What is campus life?",
+        "Can you tell me about student life on campus?",
+        "Are there extracurricular activities available at colleges?"
+      ],
+      "responses": [
+        "Campus life varies from college to college and includes a range of activities such as clubs, sports, cultural events, and community service opportunities. We can provide information about campus facilities, student organizations, and events at specific colleges."
+      ]
+    },
+    {
+      "tag": "college_location",
+      "patterns": [
+        "College location",
+        "Location",
+        "What factors should I consider regarding the location of a college?",
+        "How does the location of a college impact the overall college experience?",
+        "Can you provide insights on choosing a college based on its location?"
+      ],
+      "responses": [
+        "The location of a college is an important factor to consider during the selection process. Factors to consider include the city or town where the college is situated, the climate, proximity to home, opportunities for internships or jobs, and the cultural or recreational activities available in the area. Assessing these factors can help you determine if the location aligns with your preferences and goals."
+      ]
+    },
+    {
+      "tag": "college_facilities",
+      "patterns": [
+        "College facilities",
+        "What types of facilities should I look for when researching colleges?",
+        "How can campus facilities impact my college experience?",
+        "Are there specific facilities that are crucial for a good college experience?"
+      ],
+      "responses": [
+        "When researching colleges, it's important to consider the availability and quality of facilities that support various aspects of student life. Key facilities to look for include academic resources such as libraries, laboratories, and computer centers, as well as recreational amenities like sports facilities, student centers, and dormitories. Access to dining options, healthcare services, and extracurricular activity spaces can also enhance your college experience."
+      ]
+    },
+    {
+      "tag": "college_accreditation",
+      "patterns": [
+        "College accreditation",
+        "Why is accreditation important when choosing a college?",
+        "What are the benefits of attending an accredited college?",
+        "How can I verify if a college is accredited?"
+      ],
+      "responses": [
+        "Accreditation is vital as it ensures that a college meets established standards of quality and rigor in its educational programs. Attending an accredited college can provide assurance regarding the credibility and recognition of your degree, facilitate transfer of credits between institutions, and qualify you for financial aid opportunities. You can verify a college's accreditation status by checking with accrediting agencies or consulting databases of accredited institutions."
+      ]
+    },
+    {
+      "tag": "college_size",
+      "patterns": [
+        "College size",
+        "How does the size of a college impact the learning environment?",
+        "What are the advantages and disadvantages of attending a large college?",
+        "Are there benefits to attending a small college over a large one?"
+      ],
+      "responses": [
+        "The size of a college can significantly influence the learning environment and student experience. Large colleges often offer a wide range of academic programs, resources, and extracurricular opportunities, but they may also have larger class sizes and less personalized attention. On the other hand, small colleges typically offer smaller class sizes, closer interactions with professors, and a tight-knit community atmosphere, but may have fewer program options and resources. Considering your learning preferences and priorities can help you determine whether a large or small college is the right fit for you."
+      ]
+    },
+    {
+      "tag": "college_reputation",
+      "patterns": [
+        "College reputation",
+        "How can I assess the reputation of a college?",
+        "What factors contribute to the reputation of a college?",
+        "Are there reliable sources for evaluating the reputation of colleges?"
+      ],
+      "responses": [
+        "Assessing the reputation of a college involves considering various factors such as academic quality, faculty expertise, research opportunities, alumni success, and institutional rankings. You can evaluate a college's reputation by researching its academic programs, faculty credentials, student outcomes, and any accolades or recognitions it has received. Additionally, consulting reputable college ranking publications and online reviews from current and former students can provide insights into the overall reputation and quality of a college."
+      ]
+    },
+    {
+      "tag": "college_programs",
+      "patterns": [
+        "college programs",
+        "How do I assess the academic programs offered by a college?",
+        "What factors should I consider when evaluating college programs?",
+        "Can you provide guidance on choosing the right academic program?"
+      ],
+      "responses": [
+        "When evaluating college programs, consider factors such as program accreditation, faculty qualifications, curriculum flexibility, research opportunities, and internship or co-op experiences. Additionally, assess the program's alignment with your academic and career goals, the availability of specialized concentrations or tracks, and the reputation of the program within your field of interest."
+      ]
+    },
+    {
+      "tag": "college_cost",
+      "patterns": [
+        "college cost",
+        "How can I determine the cost of attending a college?",
+        "What factors contribute to the overall cost of college?",
+        "Are there resources available for estimating college expenses?"
+      ],
+      "responses": [
+        "Determining the cost of attending college involves considering various factors such as tuition and fees, room and board, textbooks and supplies, transportation, and personal expenses. Additionally, assess the availability of financial aid, scholarships, grants, and work-study opportunities to offset college expenses. Utilize net price calculators provided by colleges and explore financial aid resources to estimate your potential college costs and develop a financial plan."
+      ]
+    },
+    {
+      "tag": "college_community",
+      "patterns": [
+        "College community",
+        "How important is campus culture and community when selecting a college?",
+        "What are the benefits of being part of a strong college community?",
+        "Can you provide insights on assessing campus life and community?"
+      ],
+      "responses": [
+        "Campus culture and community play a significant role in shaping the overall college experience. A strong college community fosters opportunities for social interaction, peer support, and personal growth. Consider factors such as student diversity, campus traditions, community service initiatives, and student organizations when assessing campus life. Additionally, visit campus, attend admission events, and connect with current students and alumni to gain firsthand insights into the college's community and culture."
+      ]
+    },
+    {
+      "tag": "college_support_services",
+      "patterns": [
+        "College support services",
+        "What support services are available to students at college?",
+        "How can I access academic and personal support at college?",
+        "Are there resources for students with specific needs or challenges?"
+      ],
+      "responses": [
+        "Colleges typically offer a range of support services to assist students academically, emotionally, and socially. These may include academic advising, tutoring centers, counseling services, career development resources, disability support services, and health and wellness programs. Explore the college's website, speak with admissions representatives, and reach out to current students to learn more about the available support services and how to access them."
+      ]
+    },
+    {
+      "tag": "college_alumni_network",
+      "patterns": [
+        "College alumni network",
+        "How important is an alumni network when selecting a college?",
+        "What are the benefits of having a strong alumni network?",
+        "Can you provide insights on assessing the strength of a college's alumni network?"
+      ],
+      "responses": [
+        "An active and engaged alumni network can provide valuable resources and opportunities for students and graduates. Benefits may include mentorship, networking connections, career advice, job referrals, and alumni events. When assessing a college's alumni network, consider factors such as the size of the network, geographic distribution, industry connections, and alumni involvement in college activities and initiatives."
+      ]
+    },
+    {
+      "tag": "about_iit_kharagpur_architecture",
+      "patterns": [
+        "Indian Institute of Technology Kharagpur for architecture",
+        "Tell me about Indian Institute of Technology Kharagpur for architecture",
+        "What is IIT Kharagpur known for in architecture?",
+        "Can you provide information about IIT Kharagpur's architecture department?"
+      ],
+      "responses": [
+        "The Indian Institute of Technology (IIT) Kharagpur is known for its excellence in architectural education and research. The Department of Architecture and Regional Planning at IIT Kharagpur offers undergraduate, postgraduate, and doctoral programs in architecture and related fields. Renowned for its heritage, innovative curriculum, and distinguished faculty, IIT Kharagpur's architecture department provides students with a comprehensive understanding of architectural theory, design, and practice. The institute emphasizes creativity, sustainability, and interdisciplinary collaboration, preparing graduates to excel in the field of architecture."
+      ]
+    },
+    {
+      "tag": "programs_iit_kharagpur_architecture",
+      "patterns": [
+        "What programs does IIT Kharagpur offer in architecture?",
+        "Can you tell me about the architecture programs at IIT Kharagpur?",
+        "What are the popular courses at IIT Kharagpur for architecture?"
+      ],
+      "responses": [
+        "IIT Kharagpur offers a range of academic programs in architecture catering to different educational backgrounds and career aspirations. Its architecture department provides undergraduate (B.Arch.), postgraduate (M.Arch.), and doctoral (PhD) programs. The curriculum covers various aspects of architectural design, urban planning, landscape architecture, environmental sustainability, and architectural history. Popular courses at IIT Kharagpur for architecture include Bachelor of Architecture (B.Arch.) and Master of Architecture (M.Arch.), which are highly sought after by architecture aspirants seeking quality education and architectural expertise."
+      ]
+    },
+    {
+      "tag": "campus_life_iit_kharagpur_architecture",
+      "patterns": [
+        "What is campus life like at IIT Kharagpur for architecture students?",
+        "Can you tell me about student activities at IIT Kharagpur's architecture department?",
+        "Are there any notable events or clubs at IIT Kharagpur related to architecture?"
+      ],
+      "responses": [
+        "Campus life at IIT Kharagpur for architecture students is vibrant and engaging, offering a rich environment for academic, professional, and personal growth. The architecture department hosts various student societies, design studios, workshops, and seminars covering a wide range of architectural topics and extracurricular interests. Students actively participate in design competitions, architectural exhibitions, community projects, and cultural events. Notable events include architecture fests, symposiums, design charrettes, and guest lectures, providing students with opportunities for holistic development and networking."
+      ]
+    },
+    {
+      "tag": "admissions_iit_kharagpur_architecture",
+      "patterns": [
+        "How can I apply to IIT Kharagpur for architecture?",
+        "What are the admission requirements for architecture programs at IIT Kharagpur?",
+        "Can you provide information about the admissions process at IIT Kharagpur for architecture?"
+      ],
+      "responses": [
+        "Admissions to IIT Kharagpur for architecture programs are highly competitive and based on national-level entrance examinations such as the Joint Entrance Examination (JEE) Main for undergraduate programs and the Graduate Aptitude Test in Engineering (GATE) for postgraduate programs. Candidates must qualify in these examinations and meet the eligibility criteria specified by the institute. The selection process may also include interviews, portfolio reviews, and aptitude tests. Detailed information about admission criteria, eligibility, and application process is available on the official website of IIT Kharagpur."
+      ]
+    },
+    {
+      "tag": "about_iit_roorkee_architecture",
+      "patterns": [
+        "Indian Institute of Technology Roorkee for architecture",
+        "Tell me about Indian Institute of Technology Roorkee for architecture",
+        "What is IIT Roorkee known for in architecture?",
+        "Can you provide information about IIT Roorkee's architecture department?"
+      ],
+      "responses": [
+        "The Indian Institute of Technology (IIT) Roorkee is known for its excellence in architectural education and research. The Department of Architecture and Planning at IIT Roorkee offers undergraduate, postgraduate, and doctoral programs in architecture and related fields. Renowned for its heritage, innovative curriculum, and distinguished faculty, IIT Roorkee's architecture department provides students with a comprehensive understanding of architectural theory, design, and practice. The institute emphasizes creativity, sustainability, and interdisciplinary collaboration, preparing graduates to excel in the field of architecture."
+      ]
+    },
+    {
+      "tag": "programs_iit_roorkee_architecture",
+      "patterns": [
+        "What programs does IIT Roorkee offer in architecture?",
+        "Can you tell me about the architecture programs at IIT Roorkee?",
+        "What are the popular courses at IIT Roorkee for architecture?"
+      ],
+      "responses": [
+        "IIT Roorkee offers a range of academic programs in architecture catering to different educational backgrounds and career aspirations. Its architecture department provides undergraduate (B.Arch.), postgraduate (M.Arch.), and doctoral (PhD) programs. The curriculum covers various aspects of architectural design, urban planning, landscape architecture, environmental sustainability, and architectural history. Popular courses at IIT Roorkee for architecture include Bachelor of Architecture (B.Arch.) and Master of Architecture (M.Arch.), which are highly sought after by architecture aspirants seeking quality education and architectural expertise."
+      ]
+    },
+    {
+      "tag": "campus life iit roorkee architecture",
+      "patterns": [
+        "What is campus life like at IIT Roorkee for architecture students?",
+        "Can you tell me about student activities at IIT Roorkee's architecture department?",
+        "Are there any notable events or clubs at IIT Roorkee related to architecture?"
+      ],
+      "responses": [
+        "Campus life at IIT Roorkee for architecture students is vibrant and engaging, offering a rich environment for academic, professional, and personal growth. The architecture department hosts various student societies, design studios, workshops, and seminars covering a wide range of architectural topics and extracurricular interests. Students actively participate in design competitions, architectural exhibitions, community projects, and cultural events. Notable events include architecture fests, symposiums, design charrettes, and guest lectures, providing students with opportunities for holistic development and networking."
+      ]
+    },
+    {
+      "tag": "admissions iit roorkee architecture",
+      "patterns": [
+        "How can I apply to IIT Roorkee for architecture?",
+        "What are the admission requirements for architecture programs at IIT Roorkee?",
+        "Can you provide information about the admissions process at IIT Roorkee for architecture?"
+      ],
+      "responses": [
+        "Admissions to IIT Roorkee for architecture programs are highly competitive and based on national-level entrance examinations such as the Joint Entrance Examination (JEE) Main for undergraduate programs and the Graduate Aptitude Test in Engineering (GATE) for postgraduate programs. Candidates must qualify in these examinations and meet the eligibility criteria specified by the institute. The selection process may also include interviews, portfolio reviews, and aptitude tests. Detailed information about admission criteria, eligibility, and application process is available on the official website of IIT Roorkee."
+      ]
+    },
+    {
+      "tag": "about_nlu_hyderabad",
+      "patterns": [
+        "National Law University Hyderabad",
+        "Tell me about National Law University Hyderabad",
+        "What is NLU Hyderabad known for?",
+        "Can you provide information about NLU Hyderabad?"
+      ],
+      "responses": [
+        "National Law University (NLU) in Hyderabad is one of the premier law schools in India. Established in 1998, it is renowned for its academic excellence, legal research, and advocacy. NLU Hyderabad offers undergraduate, postgraduate, and doctoral programs in law and related fields. The university is known for its interdisciplinary approach, distinguished faculty, and commitment to social justice. NLU Hyderabad is consistently ranked among the top law schools in India and is recognized globally for its contributions to legal education and human rights."
+      ]
+    },
+    {
+      "tag": "programs_nlu_hyderabad",
+      "patterns": [
+        "What programs does NLU Hyderabad offer?",
+        "Can you tell me about the law programs at NLU Hyderabad?",
+        "What are the popular courses at NLU Hyderabad?"
+      ],
+      "responses": [
+        "NLU Hyderabad offers a range of academic programs in law catering to different educational backgrounds and career aspirations. Its flagship program is the five-year integrated Bachelor of Arts Bachelor of Laws (BA LLB) program, which prepares students for a career in law and legal practice. Additionally, the institute offers postgraduate programs such as Master of Laws (LLM) and Doctor of Philosophy (PhD) in law. Popular courses at NLU Hyderabad include BA LLB, LLM, and PhD, which are highly sought after by law aspirants seeking quality education and legal expertise."
+      ]
+    },
+    {
+      "tag": "campus_life_nlu_hyderabad",
+      "patterns": [
+        "What is campus life like at NLU Hyderabad?",
+        "Can you tell me about student activities at NLU Hyderabad?",
+        "Are there any notable events or clubs at NLU Hyderabad?"
+      ],
+      "responses": [
+        "Campus life at NLU Hyderabad is vibrant and engaging, offering students a rich environment for academic, professional, and personal growth. The university hosts various student societies, committees, and interest groups covering a wide range of legal topics and extracurricular interests. Students actively participate in moot court competitions, legal aid clinics, seminars, conferences, and cultural events. Notable events include annual legal fests, moot court competitions, symposiums, and cultural festivals, providing students with opportunities for holistic development and networking."
+      ]
+    },
+    {
+      "tag": "admissions_nlu_hyderabad",
+      "patterns": [
+        "How can I apply to NLU Hyderabad?",
+        "What are the admission requirements for NLU Hyderabad?",
+        "Can you provide information about the admissions process at NLU Hyderabad?"
+      ],
+      "responses": [
+        "Admissions to NLU Hyderabad are highly competitive and based on the Common Law Admission Test (CLAT) conducted by the consortium of national law universities. Candidates aspiring to join the BA LLB program must qualify in CLAT and meet the eligibility criteria specified by the university. The selection process also includes counseling sessions based on merit and preferences. Detailed information about admission criteria, eligibility, and application process is available on the official website of NLU Hyderabad."
+      ]
+    },
+    {
+      "tag": "top_mbbs_colleges_india",
+      "patterns": [
+        "Top MBBS colleges",
+        "What are the top MBBS colleges in India?",
+        "Can you provide a list of top MBBS colleges in India?",
+        "Which colleges are considered the best for MBBS in India?"
+      ],
+      "responses": [
+        "Several institutions are considered among the top MBBS colleges in India, known for their academic excellence, infrastructure, faculty, and clinical exposure. Some of the top MBBS colleges in India include All India Institute of Medical Sciences (AIIMS) in Delhi, Christian Medical College (CMC) in Vellore, Armed Forces Medical College (AFMC) in Pune, Maulana Azad Medical College (MAMC) in Delhi, and King George's Medical University (KGMU) in Lucknow. These colleges consistently rank among the best in India and are highly sought after by MBBS aspirants."
+      ]
+    },
+    {
+      "tag": "about_aiims_delhi",
+      "patterns": [
+        "AIIMS New Delhi",
+        "Tell me about AIIMS New Delhi",
+        "What is AIIMS New Delhi known for?",
+        "Can you provide information about AIIMS New Delhi?"
+      ],
+      "responses": [
+        "All India Institute of Medical Sciences (AIIMS) in New Delhi is one of the premier medical institutes in India. Established in 1956, it is renowned for its academic excellence, research contributions, and healthcare services. AIIMS New Delhi offers undergraduate, postgraduate, and doctoral programs in medicine and related fields. The institute is known for its state-of-the-art infrastructure, experienced faculty, and cutting-edge research facilities. AIIMS New Delhi is consistently ranked among the top medical colleges in India and is recognized globally for its contributions to healthcare and medical education."
+      ]
+    },
+    {
+      "tag": "programs_aiims_delhi",
+      "patterns": [
+        "What programs does AIIMS New Delhi offer?",
+        "Can you tell me about the medical programs at AIIMS New Delhi?",
+        "What are the popular courses at AIIMS New Delhi?"
+      ],
+      "responses": [
+        "AIIMS New Delhi offers a wide range of medical programs catering to different educational backgrounds and career aspirations. Its flagship program is the Bachelor of Medicine, Bachelor of Surgery (MBBS), which is a five and a half years undergraduate program including one year of compulsory internship. Additionally, the institute offers postgraduate and doctoral programs in various specialties such as MD, MS, DM, MCh, and PhD. Popular courses at AIIMS New Delhi include MBBS, MD (Doctor of Medicine), and MS (Master of Surgery), which are highly sought after by medical aspirants seeking quality education and clinical exposure."
+      ]
+    },
+    {
+      "tag": "campus_life_aiims_delhi",
+      "patterns": [
+        "What is campus life like at AIIMS New Delhi?",
+        "Can you tell me about student activities at AIIMS New Delhi?",
+        "Are there any notable events or clubs at AIIMS New Delhi?"
+      ],
+      "responses": [
+        "Campus life at AIIMS New Delhi is vibrant and engaging, offering students a conducive environment for learning, research, and personal growth. The institute hosts various student clubs, societies, and interest groups covering a wide range of medical specialties and extracurricular interests. Students actively participate in clinical rotations, research projects, academic conferences, and community outreach programs. Notable events include medical conferences, symposiums, health camps, and cultural festivals, providing students with opportunities for holistic development and networking."
+      ]
+    },
+    {
+      "tag": "admissions_aiims_delhi",
+      "patterns": [
+        "How can I apply to AIIMS New Delhi?",
+        "What are the admission requirements for AIIMS New Delhi?",
+        "Can you provide information about the admissions process at AIIMS New Delhi?"
+      ],
+      "responses": [
+        "Admissions to AIIMS New Delhi are highly competitive and based on the AIIMS MBBS entrance examination conducted by the institute. Candidates aspiring to join the MBBS program at AIIMS New Delhi must qualify in the AIIMS entrance exam, which assesses their knowledge in Physics, Chemistry, Biology, and General Knowledge. The selection process also includes a counseling session based on merit and preferences. Detailed information about admission criteria, eligibility, and application process is available on the official website of AIIMS New Delhi."
+      ]
+    },
+    {
+      "tag": "about_nlsiu_bangalore",
+      "patterns": [
+        "nlsiu banglore",
+        "National Law School of India University Bangalore",
+        "Tell me about National Law School of India University Bangalore",
+        "What is NLSIU Bangalore known for?",
+        "Can you provide information about NLSIU Bangalore?"
+      ],
+      "responses": [
+        "National Law School of India University (NLSIU) in Bangalore is one of the premier law schools in India. Established in 1987, it is renowned for its academic excellence, legal research, and advocacy. NLSIU Bangalore offers undergraduate, postgraduate, and doctoral programs in law and related fields. The university is known for its rigorous curriculum, distinguished faculty, and vibrant student community. NLSIU Bangalore is consistently ranked as the top law school in India and is recognized globally for its contributions to legal education and jurisprudence."
+      ]
+    },
+    {
+      "tag": "programs_nlsiu_bangalore",
+      "patterns": [
+        "What programs does NLSIU Bangalore offer?",
+        "Can you tell me about the law programs at NLSIU Bangalore?",
+        "What are the popular courses at NLSIU Bangalore?"
+      ],
+      "responses": [
+        "NLSIU Bangalore offers a range of academic programs in law catering to different educational backgrounds and career aspirations. Its flagship program is the five-year integrated Bachelor of Arts Bachelor of Laws (BA LLB) program, which prepares students for a career in law and legal practice. Additionally, the institute offers postgraduate programs such as Master of Laws (LLM) and Doctor of Philosophy (PhD) in law. Popular courses at NLSIU Bangalore include BA LLB, LLM, and PhD, which are highly sought after by law aspirants seeking quality education and legal expertise."
+      ]
+    },
+    {
+      "tag": "campus_life_nlsiu_bangalore",
+      "patterns": [
+        "What is campus life like at NLSIU Bangalore?",
+        "Can you tell me about student activities at NLSIU Bangalore?",
+        "Are there any notable events or clubs at NLSIU Bangalore?"
+      ],
+      "responses": [
+        "Campus life at NLSIU Bangalore is vibrant and engaging, offering students a rich environment for academic, professional, and personal growth. The university hosts various student societies, committees, and interest groups covering a wide range of legal topics and extracurricular interests. Students actively participate in moot court competitions, legal aid clinics, seminars, conferences, and cultural events. Notable events include annual legal fests, moot court competitions, symposiums, and cultural festivals, providing students with opportunities for holistic development and networking."
+      ]
+    },
+    {
+      "tag": "admissions_nlsiu_bangalore",
+      "patterns": [
+        "How can I apply to NLSIU Bangalore?",
+        "What are the admission requirements for NLSIU Bangalore?",
+        "Can you provide information about the admissions process at NLSIU Bangalore?"
+      ],
+      "responses": [
+        "Admissions to NLSIU Bangalore are highly competitive and based on the Common Law Admission Test (CLAT) conducted by the consortium of national law universities. Candidates aspiring to join the BA LLB program must qualify in CLAT and meet the eligibility criteria specified by the university. The selection process also includes counseling sessions based on merit and preferences. Detailed information about admission criteria, eligibility, and application process is available on the official website of NLSIU Bangalore."
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": [
+        "Ask me a riddle",
+        "Ask me a question",
+        "Riddle"
+      ],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ],
+      "context": [
+        "riddles"
+      ]
+    },
+    {
+      "tag": "about_reva_university",
+      "patterns": [
+        "Reva University",
+        "Tell me about Reva University",
+        "What is Reva University known for?",
+        "Can you provide information about Reva University?"
+      ],
+      "responses": [
+        "Reva University, located in Bangalore, Karnataka, is a private university known for its commitment to excellence in education, research, and innovation. Established in 2002, the university offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines such as engineering, management, law, arts, science, and commerce. Reva University is known for its state-of-the-art infrastructure, experienced faculty, industry collaborations, and emphasis on holistic development. The university aims to nurture future leaders and professionals through quality education, research-driven learning, and industry-aligned curriculum."
+      ]
+    },
+    {
+      "tag": "academics_reva_university",
+      "patterns": [
+        "What academic programs does Reva University offer?",
+        "Can you tell me about the departments at Reva University?",
+        "What are the popular majors at Reva University?"
+      ],
+      "responses": [
+        "Reva University offers a diverse range of academic programs across various disciplines. Its departments cover fields such as Engineering, Management Studies, Law, Science, Commerce, Arts, Design, and Performing Arts. Popular majors at Reva University include Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering, Business Administration, Law, Psychology, Commerce, and Journalism and Mass Communication, among others."
+      ]
+    },
+    {
+      "tag": "campus_life_reva_university",
+      "patterns": [
+        "What is campus life like at Reva University?",
+        "Can you tell me about student activities at Reva University?",
+        "Are there any notable events or clubs at Reva University?"
+      ],
+      "responses": [
+        "Campus life at Reva University is vibrant and engaging, offering students a conducive environment for learning, growth, and recreation. The university hosts various student clubs, societies, and cultural organizations that cater to diverse interests such as sports, arts, technology, entrepreneurship, and community service. Students actively participate in extracurricular activities, technical competitions, sports events, and cultural festivals throughout the year. Notable events include annual cultural fests, sports tournaments, guest lectures, seminars, and workshops, providing students with opportunities for holistic development and networking."
+      ]
+    },
+    {
+      "tag": "admissions_reva_university",
+      "patterns": [
+        "How can I apply to Reva University?",
+        "What are the admission requirements for Reva University?",
+        "Can you provide information about the admissions process at Reva University?"
+      ],
+      "responses": [
+        "Admissions to Reva University are based on merit and entrance examinations conducted by the university. For undergraduate programs, candidates must meet the eligibility criteria specified by the university and qualify in relevant entrance tests such as REVA University Entrance Test (REVA CET), Karnataka Common Entrance Test (KCET), or other national-level entrance exams. For postgraduate programs, admissions are based on academic merit, entrance test scores, and personal interviews conducted by the university. Detailed information about admission procedures, eligibility criteria, and application deadlines is available on the official website of Reva University."
+      ]
+    },
+
+   
+
+    {
+      "tag": "Headache",
+      "patterns": [
+        "How do you treat a mild Headache?",
+        "what to do if i get a mild Headache?",
+        "Which medicine to take if I have a mild headache?",
+        "How to cure a mild headache?"
+      ],
+      "responses": [
+        "Give ibuprofen (Advil, Motrin), aspirin, or acetaminophen (Tylenol) for pain. Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure. Do not give aspirin to a child under age 18."
+      ]
+    },
+
+    {
+      "tag": "Head Injury",
+      "patterns": [
+        "How do you treat a head Injury?",
+        "what to do if i get a Head Injury?",
+        "Which medicine to take if I get injured in the head?",
+        "How to cure Head Injury?"
+      ],
+      "responses": [
+        "1) Apply firm pressure to the wound with sterile gauze or a clean cloth. But don't apply direct pressure to the wound if you suspect a skull fracture. "
+      ]
+    },
+
+    {
+      "tag": "Fracture",
+      "patterns": [
+        "How do you treat a Fracture?",
+        "what to do if i get a Fracture?",
+        "Which medicine to take if I have a Fracture?",
+        "How to cure a Fracture?"
+      ],
+      "responses": [
+        "1)Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing. 2)Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort. 3)Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. 4)Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."
+      ],
+      "context_set": ""
+    }
+
+
+  ]
+}

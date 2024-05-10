@@ -1,0 +1,366 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body fills the viewport height */
+    margin: 0;
+  }
+  
+  
+  header, footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .logo {
+    float: left; /* Float the logo to the left */
+  }
+
+  .logo img {
+    height: 70px;
+    margin-left: 20px;
+  }
+  
+  .auth {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .auth a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center-align items vertically */
+    justify-content: space-between; /* Space items evenly */
+    flex: 1;
+  }
+  
+  .navigation {
+    flex-grow: 1; /* Allow navigation to grow and take up remaining space */
+    text-align: center; /* Center-align navigation items */
+  }
+  
+  .navigation ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    display: inline-block; /* Display list items in a row */
+    margin-right: 20px; /* Add margin between list items */
+  }
+  
+  .navigation ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: none;
+    width: 350px; /* Adjust width as needed */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add box shadow */
+    border-radius: 10px;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Center the modal form inputs */
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content form input[type="text"],
+  .modal-content form input[type="password"],
+  .modal-content form input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .modal-content form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .modal-content form button[type="submit"]:hover {
+    background-color: #555;
+    
+  }
+  
+  
+.background-image {
+    background-image: url('images/4.jpg'); /* Adjust the URL to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /*Center the background */
+    position: absolute; /* Fix the background image */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Send it to the back */
+  }
+
+
+  /*  search bar*/
+
+  .search {
+    margin-left: 520px;
+    margin-top: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .search h1 {
+    color: white;
+    margin-left: 90px;
+    
+  }
+
+  .search select {
+    height: 26px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .search select option {
+    padding: 100px;
+    
+  }
+
+  .search button {
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+  }
+  
+  
+ .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0%; /* Push the footer to the bottom */
+  }
+  
+  .footer .container {
+    flex: 1; /* Allow the container to grow and take up remaining space */
+  }
+  
+  .footer .social-media ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer .social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer .social-media ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer .social-media ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  
+  .footer .social-media ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  .welcome {
+    align-items: center;
+    margin-left: 630px;
+    margin-top: 20px;
+}
+
+.welcome h2, p {
+  color: white;
+}
+
+
+/* ===========  explore  =========== */
+
+.selector {
+  margin-top: 350px;
+}
+
+.explore-h1 {
+  padding: 33px 0px;
+}
+
+.explore-h1 h1,
+.explore-p {
+  font-family: "Abel", sans-serif;
+  color: #13274f;
+  text-align: center;
+}
+
+.explore-h1 h1 {
+  font-size: 2.45em;
+}
+
+.explore-p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.explore-p p {
+  color: #13274f;
+  padding-top: 12px;
+  font-size: 1.2345em;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.explore-card {
+  height: auto;
+  width: 300px;
+  padding: 23px;
+}
+
+.card-img img {
+  width: 200px;
+  height: 150px;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.card-h1 {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.explore-card:hover,
+.future-card:hover {
+  color: #007fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  cursor: pointer;
+}
+
+.gray {
+  color: gray;
+  padding-top: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 23px 0px;
+}
+
+.card-h1 h3 {
+  padding-top: 12px;
+  color: black;
+}
+
+.abroad {
+  background-color: whitesmoke;
+}
+
+.header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-links {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header .title {
+  font-size: 24px;
+}
+
+.content {
+  min-height: calc(100vh - 160px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
