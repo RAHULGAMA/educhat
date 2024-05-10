@@ -2,8 +2,8 @@
 
 -- a online university searching website powered by an AI chatbot
 
-# install pytorch
+#install pytorch
 
-# python train.py
+#python train.py
 
-# python app.py
+#python app.py
